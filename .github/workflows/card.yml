@@ -42,7 +42,9 @@ jobs:
           [ -n "$owner_repo" ] || { echo "README.md has no owner-repo frontmatter" >&2; exit 1; }
           date_stamp=$(date -u +%y%m%d)
           mkdir -p data
-          x repo card --yml "$owner_repo" > "data/$date_stamp.yml"
+          # No --yml flag: released x-cmd doesn't have it yet, and `x repo card`
+          # already emits bare YAML when stdout is not a TTY.
+          x repo card "$owner_repo" > "data/$date_stamp.yml"
           [ -s "data/$date_stamp.yml" ] || { echo "empty card for $owner_repo" >&2; exit 1; }
           echo "==> data/$date_stamp.yml ($(wc -l < "data/$date_stamp.yml") lines) for $owner_repo"
 
