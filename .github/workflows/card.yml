@@ -1,12 +1,12 @@
 ## Template for x-cmd-install/<software>/.github/workflows/card.yml
 ##
-## Placeholder 36 is replaced per repo by .x-cmd/deploy-workflow.sh so
-## 2500+ repos spread across the 00:00-00:59 UTC window instead of stampeding
-## GitHub's scheduler at exactly 0:00 (top-of-hour crons get heavily delayed
-## or silently dropped).
+## 36 is substituted per repo by x-cmd-install-stat/.x-cmd/deploy-workflow.sh
+## so 2500+ repos spread across the 00:00-00:59 UTC window. A literal
+## `0 0 * * *` across every repo lands in GitHub's most congested scheduler
+## slot, where runs get delayed by tens of minutes or dropped outright.
 ##
-## Output: data/<YYMMDD>.yml — same YAML that `x repo card` emits, same date
-## stamp convention as x-cmd-install-stat/stat/<repo>/<YYMMDD>.card.yml.
+## Output: data/<YYMMDD>.yml, same shape and date stamp as
+## x-cmd-install-stat/stat/<repo>/<YYMMDD>.card.yml.
 name: card
 
 on:
@@ -27,26 +27,18 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install x-cmd
-        run: |
-          curl -fsSL https://get.x-cmd.com | bash
-          echo "$HOME/.x-cmd.root/bin" >> "$GITHUB_PATH"
-
+      # No x-cmd install step: .github/card.sh is a self-contained port of
+      # `x repo card` needing only curl + jq, both preinstalled on the runner.
       - name: Generate data/<date>.yml
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -eu
-          # Upstream repo id lives in the README yfm frontmatter.
-          owner_repo=$(awk -F':[[:space:]]*' '/^owner-repo:/{print $2; exit}' README.md | tr -d '[:space:]')
-          [ -n "$owner_repo" ] || { echo "README.md has no owner-repo frontmatter" >&2; exit 1; }
           date_stamp=$(date -u +%y%m%d)
           mkdir -p data
-          # No --yml flag: released x-cmd doesn't have it yet, and `x repo card`
-          # already emits bare YAML when stdout is not a TTY.
-          x repo card "$owner_repo" > "data/$date_stamp.yml"
-          [ -s "data/$date_stamp.yml" ] || { echo "empty card for $owner_repo" >&2; exit 1; }
-          echo "==> data/$date_stamp.yml ($(wc -l < "data/$date_stamp.yml") lines) for $owner_repo"
+          bash .github/card.sh > "data/$date_stamp.yml"
+          [ -s "data/$date_stamp.yml" ] || { echo "empty card" >&2; exit 1; }
+          echo "==> data/$date_stamp.yml ($(wc -l < "data/$date_stamp.yml") lines)"
 
       - name: Commit
         run: |
