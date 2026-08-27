@@ -1,0 +1,57 @@
+## Template for x-cmd-install/<software>/.github/workflows/card.yml
+##
+## Placeholder 36 is replaced per repo by .x-cmd/deploy-workflow.sh so
+## 2500+ repos spread across the 00:00-00:59 UTC window instead of stampeding
+## GitHub's scheduler at exactly 0:00 (top-of-hour crons get heavily delayed
+## or silently dropped).
+##
+## Output: data/<YYMMDD>.yml — same YAML that `x repo card` emits, same date
+## stamp convention as x-cmd-install-stat/stat/<repo>/<YYMMDD>.card.yml.
+name: card
+
+on:
+  schedule:
+    - cron: "36 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: card
+  cancel-in-progress: false
+
+jobs:
+  card:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install x-cmd
+        run: |
+          curl -fsSL https://get.x-cmd.com | bash
+          echo "$HOME/.x-cmd.root/bin" >> "$GITHUB_PATH"
+
+      - name: Generate data/<date>.yml
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -eu
+          # Upstream repo id lives in the README yfm frontmatter.
+          owner_repo=$(awk -F':[[:space:]]*' '/^owner-repo:/{print $2; exit}' README.md | tr -d '[:space:]')
+          [ -n "$owner_repo" ] || { echo "README.md has no owner-repo frontmatter" >&2; exit 1; }
+          date_stamp=$(date -u +%y%m%d)
+          mkdir -p data
+          x repo card --yml "$owner_repo" > "data/$date_stamp.yml"
+          [ -s "data/$date_stamp.yml" ] || { echo "empty card for $owner_repo" >&2; exit 1; }
+          echo "==> data/$date_stamp.yml ($(wc -l < "data/$date_stamp.yml") lines) for $owner_repo"
+
+      - name: Commit
+        run: |
+          set -eu
+          git config user.name  "x-cmd-install bot"
+          git config user.email "bot@x-cmd.com"
+          git add data
+          git diff --cached --quiet && { echo "no change"; exit 0; }
+          git commit -q -m "stat: card $(date -u +%y%m%d)"
+          git push
