@@ -1,0 +1,65 @@
+about:
+  description: Command-line JSON processor
+  license: NOASSERTION
+  homepage: https://jqlang.org
+  head: 9d241e2
+  archived: false
+  latestVersion: jq-1.8.2
+  collectedAt: 2026-09-02T04:57:47Z
+timeline:
+  created: 2012-07-18
+  lastCommit: 2026-09-01
+  lastRelease: 2026-06-20
+popularity:
+  star: 35525
+  watcher: 356
+  fork: 1828
+  release: 16
+  contributor: 241
+  pullRequest: 482
+  issue: 2352
+language:
+  C: 527712
+  M4: 44046
+  Shell: 37276
+  Yacc: 22382
+  jq: 10917
+  C++: 10133
+  Makefile: 9442
+  Lex: 4548
+  Python: 1000
+  Dockerfile: 713
+totalLine: 668169
+recent:
+  last30d:
+    since: 2026-08-03
+    release: 0
+    mergedPR: 5
+    openPR: 16
+    closedIssue: 2
+    openIssue: 0
+    commit: 7
+  last90d:
+    since: 2026-06-04
+    release: 1
+    mergedPR: 14
+    openPR: 23
+    closedIssue: 14
+    openIssue: 6
+    commit: 20
+  last180d:
+    since: 2026-03-06
+    release: 1
+    mergedPR: 31
+    openPR: 34
+    closedIssue: 21
+    openIssue: 10
+    commit: 50
+  last360d:
+    since: 2025-09-07
+    release: 1
+    mergedPR: 69
+    openPR: 41
+    closedIssue: 49
+    openIssue: 21
+    commit: 91
