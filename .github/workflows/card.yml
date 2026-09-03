@@ -1,16 +1,11 @@
-## Template for x-cmd-install/<software>/.github/workflows/card.yml
-##
-## 36 is substituted per repo by x-cmd-install-stat/.x-cmd/deploy-workflow.sh
-## so 2500+ repos spread across the 00:00-00:59 UTC window. A literal
-## `0 0 * * *` across every repo lands in GitHub's most congested scheduler
-## slot, where runs get delayed by tens of minutes or dropped outright.
-##
-## Output: data/<YYMMDD>.yml, same shape and date stamp as
-## x-cmd-install-stat/stat/<repo>/<YYMMDD>.card.yml.
 name: card
 
 on:
   schedule:
+    # The minute offset (36 here) is substituted per repo by
+    # x-cmd-install-stat/.x-cmd/deploy-workflow.sh so 2500+ repos spread
+    # across the 00:00-00:59 UTC window. A literal `0 0 * * *` across
+    # every repo lands in GitHub's most congested scheduler slot.
     - cron: "36 0 * * *"
   workflow_dispatch:
 
@@ -22,30 +17,16 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  card:
+  collect:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      # No x-cmd install step: .github/card.sh is a self-contained port of
-      # `x repo card` needing only curl + jq, both preinstalled on the runner.
-      - name: Generate data/<date>.yml
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          set -eu
-          date_stamp=$(date -u +%y%m%d)
-          mkdir -p data
-          bash .github/card.sh > "data/$date_stamp.yml"
-          [ -s "data/$date_stamp.yml" ] || { echo "empty card" >&2; exit 1; }
-          echo "==> data/$date_stamp.yml ($(wc -l < "data/$date_stamp.yml") lines)"
-
-      - name: Commit
-        run: |
-          set -eu
-          git config user.name  "x-cmd-install bot"
-          git config user.email "bot@x-cmd.com"
-          git add data
-          git diff --cached --quiet && { echo "no change"; exit 0; }
-          git commit -q -m "stat: card $(date -u +%y%m%d)"
-          git push
+      # Single source of truth: x-cmd-install/x-cmd-install-action does
+      # card → loc → sync. Pin to a tag so behavior changes ship from one
+      # place rather than from N copies of a workflow template.
+      - name: Collect card
+        uses: x-cmd-install/x-cmd-install-action@v0.1.0
+        with:
+          owner-repo: ${{ github.repository }}
+          stages: 'card'
