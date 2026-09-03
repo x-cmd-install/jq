@@ -26,7 +26,7 @@ jobs:
       # card → loc → sync. Pin to a tag so behavior changes ship from one
       # place rather than from N copies of a workflow template.
       - name: Collect card
-        uses: x-cmd-install/x-cmd-install-action@v0.1.1
+        uses: x-cmd-install/x-cmd-install-action@v0.1.2
         with:
           owner-repo: ${{ github.repository }}
           stages: 'card'
