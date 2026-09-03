@@ -1,55 +1,67 @@
 about:
   description:
   |
-      Command-line JSON processor 
+    Command-line JSON processor
   license: NOASSERTION
-  homepage: 
-  head: 3688195
+  homepage: https://jqlang.org
+  head: 9d241e2
   archived: false
-  latestVersion: 
-  collectedAt: 2026-09-03T21:03:37Z
+  latestVersion: jq-1.8.2
+  collectedAt: 2026-09-03T21:06:00Z
 timeline:
-  created: 2026-08-25
-  lastCommit: 2026-09-03
-  lastRelease: 
+  created: 2012-07-18
+  lastCommit: 2026-09-01
+  lastRelease: 2026-06-20
 popularity:
-  star: 0
-  watcher: 0
-  fork: 0
-  release: 0
-  contributor: 2
-  pullRequest: 0
-  issue: 0
+  star: 35542
+  watcher: 356
+  fork: 1831
+  release: 16
+  contributor: 241
+  pullRequest: 485
+  issue: 2352
+language:
+  C: 527712
+  M4: 44046
+  Shell: 37276
+  Yacc: 22382
+  jq: 10917
+  C++: 10133
+  Makefile: 9442
+  Lex: 4548
+  Python: 1000
+  Dockerfile: 713
+totalBytes: 668169
 recent:
   last30d:
     since: 2026-08-04
     release: 0
-    mergedPR: 0
-    openPR: 0
-    closedIssue: 0
+    mergedPR: 5
+    openPR: 19
+    closedIssue: 2
     openIssue: 0
-    commit: 18
+    commit: 7
   last90d:
     since: 2026-06-05
-    release: 0
-    mergedPR: 0
-    openPR: 0
-    closedIssue: 0
-    openIssue: 0
-    commit: 18
+    release: 1
+    mergedPR: 14
+    openPR: 25
+    closedIssue: 14
+    openIssue: 6
+    commit: 20
   last180d:
     since: 2026-03-07
-    release: 0
-    mergedPR: 0
-    openPR: 0
-    closedIssue: 0
-    openIssue: 0
-    commit: 18
+    release: 1
+    mergedPR: 31
+    openPR: 37
+    closedIssue: 21
+    openIssue: 10
+    commit: 50
   last360d:
     since: 2025-09-08
-    release: 0
-    mergedPR: 0
-    openPR: 0
-    closedIssue: 0
-    openIssue: 0
-    commit: 18
+    release: 1
+    mergedPR: 68
+    openPR: 44
+    closedIssue: 49
+    openIssue: 21
+    commit: 91
