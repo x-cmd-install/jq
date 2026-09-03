@@ -7,15 +7,15 @@ about:
   head: 9d241e2
   archived: false
   latestVersion: jq-1.8.2
-  collectedAt: 2026-09-03T21:06:00Z
+  collectedAt: 2026-09-03T22:34:12Z
 timeline:
   created: 2012-07-18
   lastCommit: 2026-09-01
   lastRelease: 2026-06-20
 popularity:
-  star: 35542
+  star: 35543
   watcher: 356
-  fork: 1831
+  fork: 1832
   release: 16
   contributor: 241
   pullRequest: 485
