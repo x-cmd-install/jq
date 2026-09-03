@@ -2,11 +2,7 @@ name: card
 
 on:
   schedule:
-    # The minute offset (36 here) is substituted per repo by
-    # x-cmd-install-stat/.x-cmd/deploy-workflow.sh so 2500+ repos spread
-    # across the 00:00-00:59 UTC window. A literal `0 0 * * *` across
-    # every repo lands in GitHub's most congested scheduler slot.
-    - cron: "36 0 * * *"
+    - cron: "27 0 * * *"
   workflow_dispatch:
 
 permissions:
@@ -22,15 +18,8 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
-      # Single source of truth: x-cmd-install/x-cmd-install-action does
-      # card → loc → sync. Pin to a tag so behavior changes ship from one
-      # place rather than from N copies of a workflow template.
       - name: Collect card
-        uses: x-cmd-install/x-cmd-install-action@v0.1.2
+        uses: x-cmd-install/x-cmd-install-action@main
         with:
-          # Collect data for the *upstream* repo, not this mirror.
-          # deploy-workflow.sh substitutes this value per repo from
-          # the README.md owner-repo frontmatter; for the test repo
-          # it's hardcoded to jqlang/jq.
           owner-repo: jqlang/jq
           stages: 'card'
