@@ -30,3 +30,4 @@ jobs:
           # to github.com/jqlang/jq; the scorecard backend still
           # has the data under stedolan/jq.
           scorecard: stedolan/jq
+          stream: x7
