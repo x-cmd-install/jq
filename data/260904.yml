@@ -7,7 +7,7 @@ about:
   head: 9d241e2
   archived: false
   latestVersion: jq-1.8.2
-  collectedAt: 2026-09-04T19:14:01Z
+  collectedAt: 2026-09-04T19:14:43Z
 timeline:
   created: 2012-07-18
   lastCommit: 2026-09-01
@@ -18,7 +18,7 @@ popularity:
   fork: 1833
   release: 16
   contributor: 241
-  pullRequest: 485
+  pullRequest: 1200
   issue: 2352
 language:
   C: 527712
@@ -41,6 +41,14 @@ recent:
     closedIssue: 2
     openIssue: 0
     commit: 7
+  last60d:
+    since: 2026-07-06
+    release: 0
+    mergedPR: 9
+    openPR: 24
+    closedIssue: 3
+    openIssue: 5
+    commit: 11
   last90d:
     since: 2026-06-06
     release: 1
@@ -65,6 +73,21 @@ recent:
     closedIssue: 49
     openIssue: 21
     commit: 91
+  last720d:
+    since: 2024-09-14
+    release: 3
+    mergedPR: 166
+    openPR: 56
+    closedIssue: 111
+    openIssue: 36
+    commit: 206
+total:
+  release: 16
+  mergedPR: 715
+  openPR: 121
+  closedIssue: 1996
+  openIssue: 356
+  commit: 1940
 ---
 ---
 date: "2026-08-24"
