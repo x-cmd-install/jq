@@ -18,8 +18,15 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
-      - name: Collect card
+      # Single source of truth: x-cmd-install/x-cmd-install-action does
+      # card → loc → scorecard in one shot. Pin to a tag for stability
+      # or @main to ride the latest.
+      - name: Collect card + loc + scorecard
         uses: x-cmd-install/x-cmd-install-action@main
         with:
           owner-repo: jqlang/jq
-          stages: 'card'
+          # OpenSSF scorecard tracks the historical repo name even
+          # after a rename. jq was moved from github.com/stedolan/jq
+          # to github.com/jqlang/jq; the scorecard backend still
+          # has the data under stedolan/jq.
+          scorecard: stedolan/jq
