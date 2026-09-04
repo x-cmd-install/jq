@@ -30,3 +30,5 @@ jobs:
           # to github.com/jqlang/jq; the scorecard backend still
           # has the data under stedolan/jq.
           scorecard: stedolan/jq
+          # Pin to stable stream while debugging x7 issues.
+          stream: index.html
