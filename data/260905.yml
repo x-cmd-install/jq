@@ -1,0 +1,346 @@
+about:
+  description:
+  |
+    Command-line JSON processor
+  license: NOASSERTION
+  homepage: https://jqlang.org
+  head: 9d241e2
+  archived: false
+  latestVersion: jq-1.8.2
+  collectedAt: 2026-09-05T18:12:47Z
+timeline:
+  created: 2012-07-18
+  lastCommit: 2026-09-01
+  lastRelease: 2026-06-20
+popularity:
+  star: 35553
+  watcher: 356
+  fork: 1833
+  release: 16
+  contributor: 241
+  pullRequest: 1199
+  issue: 2352
+language:
+  C: 527712
+  M4: 44046
+  Shell: 37276
+  Yacc: 22382
+  jq: 10917
+  C++: 10133
+  Makefile: 9442
+  Lex: 4548
+  Python: 1000
+  Dockerfile: 713
+totalBytes: 668169
+recent:
+  last30d:
+    since: 2026-08-06
+    release: 0
+    mergedPR: 5
+    openPR: 17
+    closedIssue: 2
+    openIssue: 0
+    commit: 7
+  last60d:
+    since: 2026-07-07
+    release: 0
+    mergedPR: 9
+    openPR: 23
+    closedIssue: 3
+    openIssue: 5
+    commit: 11
+  last90d:
+    since: 2026-06-07
+    release: 1
+    mergedPR: 14
+    openPR: 24
+    closedIssue: 14
+    openIssue: 6
+    commit: 20
+  last180d:
+    since: 2026-03-09
+    release: 1
+    mergedPR: 29
+    openPR: 36
+    closedIssue: 21
+    openIssue: 9
+    commit: 50
+  last360d:
+    since: 2025-09-10
+    release: 1
+    mergedPR: 68
+    openPR: 43
+    closedIssue: 48
+    openIssue: 21
+    commit: 91
+  last720d:
+    since: 2024-09-15
+    release: 3
+    mergedPR: 166
+    openPR: 55
+    closedIssue: 111
+    openIssue: 36
+    commit: 206
+total:
+  release: 16
+  mergedPR: 715
+  openPR: 120
+  closedIssue: 1996
+  openIssue: 356
+  commit: 1940
+---
+path: /home/runner/.x-repo/github.com/jqlang/jq
+collectedAt: 2026-09-05T18:12:48Z
+loc:
+  C:
+    code: 30415
+    comments: 7836
+    blanks: 3565
+    files: 45
+  Yaml:
+    code: 18687
+    comments: 52
+    blanks: 2709
+    files: 11
+  CHeader:
+    code: 4162
+    comments: 740
+    blanks: 512
+    files: 32
+  Sh:
+    code: 955
+    comments: 116
+    blanks: 161
+    files: 14
+  Happy:
+    code: 901
+    comments: 0
+    blanks: 71
+    files: 1
+  M4:
+    code: 438
+    comments: 341
+    blanks: 79
+    files: 8
+  Cpp:
+    code: 319
+    comments: 12
+    blanks: 14
+    files: 2
+  Python:
+    code: 319
+    comments: 17
+    blanks: 77
+    files: 5
+  Jinja2:
+    code: 278
+    comments: 0
+    blanks: 15
+    files: 6
+  Automake:
+    code: 174
+    comments: 34
+    blanks: 52
+    files: 1
+  Css:
+    code: 84
+    comments: 0
+    blanks: 19
+    files: 1
+  RPMSpecfile:
+    code: 51
+    comments: 6
+    blanks: 12
+    files: 1
+  Html:
+    code: 38
+    comments: 0
+    blanks: 7
+    files: 1
+  JavaScript:
+    code: 34
+    comments: 0
+    blanks: 0
+    files: 1
+  Dockerfile:
+    code: 29
+    comments: 0
+    blanks: 5
+    files: 1
+  Json:
+    code: 11
+    comments: 0
+    blanks: 0
+    files: 2
+  Autoconf:
+    code: 10
+    comments: 0
+    blanks: 1
+    files: 1
+  Svg:
+    code: 2
+    comments: 0
+    blanks: 0
+    files: 2
+  Markdown:
+    code: 0
+    comments: 685
+    blanks: 191
+    files: 4
+  Text:
+    code: 0
+    comments: 269
+    blanks: 29
+    files: 15
+total:
+  code: 56909
+  comments: 10108
+  blanks: 7519
+  files: 154
+---
+date: "2026-08-24"
+repo:
+  name: github.com/stedolan/jq
+  commit: 41b8edfe5437fcd25a072081c05f9f770f9e9b85
+scorecard:
+  version: v5.5.1-0.20260815060127-d1fab88f5463
+  commit: d1fab88f54636ff366076edfc5c239f97b3c8e66
+score: 5.4
+checks:
+  - name: Maintained
+    score: 10
+    reason: 19 commit(s) and 3 issue activity found in the last 90 days -- score normalized to 10
+    details: null
+  - name: Code-Review
+    score: 5
+    reason: Found 14/26 approved changesets -- score normalized to 5
+    details: null
+  - name: Security-Policy
+    score: 10
+    reason: security policy file detected
+    details:
+      - 'Info: security policy file detected: SECURITY.md:1'
+      - 'Info: Found linked content: SECURITY.md:1'
+      - 'Info: Found disclosure, vulnerability, and/or timelines in security policy: SECURITY.md:1'
+      - 'Info: Found text in security policy: SECURITY.md:1'
+  - name: Dangerous-Workflow
+    score: 10
+    reason: no dangerous workflow patterns detected
+    details: null
+  - name: CII-Best-Practices
+    score: 0
+    reason: no effort to earn an OpenSSF best practices badge detected
+    details: null
+  - name: Binary-Artifacts
+    score: 10
+    reason: no binaries found in the repo
+    details: null
+  - name: Token-Permissions
+    score: 0
+    reason: detected GitHub workflow tokens with excessive permissions
+    details:
+      - 'Info: jobLevel ''contents'' permission set to ''read'': .github/workflows/ci.yml:299'
+      - 'Warn: jobLevel ''contents'' permission set to ''write'': .github/workflows/ci.yml:373'
+      - 'Warn: no topLevel permission defined: .github/workflows/ci.yml:1'
+      - 'Warn: no topLevel permission defined: .github/workflows/decnum.yml:1'
+      - 'Warn: no topLevel permission defined: .github/workflows/manpage.yml:1'
+      - 'Warn: no topLevel permission defined: .github/workflows/oniguruma.yml:1'
+      - 'Warn: no topLevel permission defined: .github/workflows/scanbuild.yml:1'
+      - 'Warn: no topLevel permission defined: .github/workflows/valgrind.yml:1'
+      - 'Warn: no topLevel permission defined: .github/workflows/website.yml:1'
+  - name: License
+    score: 9
+    reason: license file detected
+    details:
+      - 'Info: project has a license file: COPYING:0'
+      - 'Warn: project license file does not contain an FSF or OSI license.'
+  - name: Fuzzing
+    score: 10
+    reason: project is fuzzed
+    details:
+      - 'Info: OSSFuzz integration found'
+      - 'Info: CLibFuzzer integration found: tests/jq_fuzz_compile.c:7'
+      - 'Info: CLibFuzzer integration found: tests/jq_fuzz_load_file.c:7'
+      - 'Info: CLibFuzzer integration found: tests/jq_fuzz_parse.c:7'
+      - 'Info: CLibFuzzer integration found: tests/jq_fuzz_parse_extended.c:7'
+      - 'Info: CLibFuzzer integration found: tests/jq_fuzz_parse_stream.c:7'
+  - name: Pinned-Dependencies
+    score: 0
+    reason: dependency not pinned by hash detected -- score normalized to 0
+    details:
+      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/ci.yml:139: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/ci.yml/master?enable=pin'
+      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/ci.yml:171: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/ci.yml/master?enable=pin'
+      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/ci.yml:179: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/ci.yml/master?enable=pin'
+      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/ci.yml:216: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/ci.yml/master?enable=pin'
+      - 'Warn: third-party GitHubAction not pinned by hash: .github/workflows/ci.yml:219: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/ci.yml/master?enable=pin'
+      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/ci.yml:250: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/ci.yml/master?enable=pin'
+      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/ci.yml:258: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/ci.yml/master?enable=pin'
+      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/ci.yml:269: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/ci.yml/master?enable=pin'
+      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/ci.yml:286: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/ci.yml/master?enable=pin'
+      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/ci.yml:306: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/ci.yml/master?enable=pin'
+      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/ci.yml:308: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/ci.yml/master?enable=pin'
+      - 'Warn: third-party GitHubAction not pinned by hash: .github/workflows/ci.yml:334: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/ci.yml/master?enable=pin'
+      - 'Warn: third-party GitHubAction not pinned by hash: .github/workflows/ci.yml:343: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/ci.yml/master?enable=pin'
+      - 'Warn: third-party GitHubAction not pinned by hash: .github/workflows/ci.yml:345: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/ci.yml/master?enable=pin'
+      - 'Warn: third-party GitHubAction not pinned by hash: .github/workflows/ci.yml:347: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/ci.yml/master?enable=pin'
+      - 'Warn: third-party GitHubAction not pinned by hash: .github/workflows/ci.yml:353: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/ci.yml/master?enable=pin'
+      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/ci.yml:364: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/ci.yml/master?enable=pin'
+      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/ci.yml:383: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/ci.yml/master?enable=pin'
+      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/ci.yml:385: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/ci.yml/master?enable=pin'
+      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/ci.yml:396: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/ci.yml/master?enable=pin'
+      - 'Warn: third-party GitHubAction not pinned by hash: .github/workflows/ci.yml:409: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/ci.yml/master?enable=pin'
+      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/ci.yml:78: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/ci.yml/master?enable=pin'
+      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/ci.yml:106: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/ci.yml/master?enable=pin'
+      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/ci.yml:114: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/ci.yml/master?enable=pin'
+      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/decnum.yml:13: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/decnum.yml/master?enable=pin'
+      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/decnum.yml:36: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/decnum.yml/master?enable=pin'
+      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/manpage.yml:23: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/manpage.yml/master?enable=pin'
+      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/manpage.yml:25: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/manpage.yml/master?enable=pin'
+      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/oniguruma.yml:48: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/oniguruma.yml/master?enable=pin'
+      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/oniguruma.yml:69: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/oniguruma.yml/master?enable=pin'
+      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/oniguruma.yml:15: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/oniguruma.yml/master?enable=pin'
+      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/oniguruma.yml:36: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/oniguruma.yml/master?enable=pin'
+      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/scanbuild.yml:13: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/scanbuild.yml/master?enable=pin'
+      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/scanbuild.yml:42: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/scanbuild.yml/master?enable=pin'
+      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/valgrind.yml:13: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/valgrind.yml/master?enable=pin'
+      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/valgrind.yml:35: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/valgrind.yml/master?enable=pin'
+      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/website.yml:46: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/website.yml/master?enable=pin'
+      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/website.yml:18: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/website.yml/master?enable=pin'
+      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/website.yml:20: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/website.yml/master?enable=pin'
+      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/website.yml:31: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/website.yml/master?enable=pin'
+      - 'Warn: containerImage not pinned by hash: Dockerfile:1: pin your Docker image by updating debian:12-slim to debian:12-slim@sha256:88200866dfff7ea7f5cbcb6ec7c8a701889efe6fe859fe64d6990e4b07ea4171'
+      - 'Warn: pipCommand not pinned by hash: .github/workflows/manpage.yml:31'
+      - 'Warn: pipCommand not pinned by hash: .github/workflows/website.yml:26'
+      - 'Info:   0 out of  33 GitHub-owned GitHubAction dependencies pinned'
+      - 'Info:   0 out of   7 third-party GitHubAction dependencies pinned'
+      - 'Info:   0 out of   1 containerImage dependencies pinned'
+      - 'Info:   0 out of   2 pipCommand dependencies pinned'
+  - name: Signed-Releases
+    score: 0
+    reason: Project has not signed or included provenance with any releases.
+    details:
+      - 'Warn: release artifact jq-1.8.2 not signed: https://api.github.com/repos/jqlang/jq/releases/342331441'
+      - 'Warn: release artifact jq-1.8.1 not signed: https://api.github.com/repos/jqlang/jq/releases/229086848'
+      - 'Warn: release artifact jq-1.8.0 not signed: https://api.github.com/repos/jqlang/jq/releases/222262711'
+      - 'Warn: release artifact jq-1.7.1 not signed: https://api.github.com/repos/jqlang/jq/releases/133804159'
+      - 'Warn: release artifact jq-1.7 not signed: https://api.github.com/repos/jqlang/jq/releases/120201151'
+      - 'Warn: release artifact jq-1.8.2 does not have provenance: https://api.github.com/repos/jqlang/jq/releases/342331441'
+      - 'Warn: release artifact jq-1.8.1 does not have provenance: https://api.github.com/repos/jqlang/jq/releases/229086848'
+      - 'Warn: release artifact jq-1.8.0 does not have provenance: https://api.github.com/repos/jqlang/jq/releases/222262711'
+      - 'Warn: release artifact jq-1.7.1 does not have provenance: https://api.github.com/repos/jqlang/jq/releases/133804159'
+      - 'Warn: release artifact jq-1.7 does not have provenance: https://api.github.com/repos/jqlang/jq/releases/120201151'
+  - name: Branch-Protection
+    score: 0
+    reason: branch protection not enabled on development/release branches
+    details:
+      - 'Warn: branch protection not enabled for branch ''master'''
+  - name: Packaging
+    score: 10
+    reason: packaging workflow detected
+    details:
+      - 'Info: Project packages its releases by way of GitHub Actions.: .github/workflows/ci.yml:295'
+  - name: SAST
+    score: 0
+    reason: SAST tool is not run on all commits -- score normalized to 0
+    details:
+      - 'Warn: 0 commits out of 19 are checked with a SAST tool'
