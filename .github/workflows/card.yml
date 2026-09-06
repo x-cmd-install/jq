@@ -2,11 +2,10 @@ name: card
 
 on:
   schedule:
-    - cron: "MIN 0 * * *"
+    - cron: "27 0 * * *"
   workflow_dispatch:
 
-permissions:
-  contents: write
+permissions: {}
 
 concurrency:
   group: card
@@ -17,8 +16,5 @@ jobs:
     runs-on: ubuntu-slim
     steps:
       - uses: actions/checkout@v5
-
       - name: Collect card + loc + scorecard
         uses: x-cmd-install/x-cmd-install-action@main
-        with:
-          owner-repo: jqlang/jq
