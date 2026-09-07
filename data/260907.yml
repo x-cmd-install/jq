@@ -5,7 +5,7 @@ about:
   head: 9d241e2
   archived: false
   latestVersion: "jq-1.8.2"
-  collectedAt: 2026-09-07T18:13:25Z
+  collectedAt: 2026-09-07T18:14:56Z
 timeline:
   created: 2012-07-18
   lastCommit: 2026-09-01
@@ -88,7 +88,7 @@ total:
   commit: 1940
 ---
 path: /home/runner/.x-repo/github.com/jqlang/jq
-collectedAt: 2026-09-07T18:13:28Z
+collectedAt: 2026-09-07T18:14:58Z
 loc:
   C:
     code: 30415
@@ -344,7 +344,7 @@ checks:
       - 'Warn: 0 commits out of 19 are checked with a SAST tool'
 ---
 eget:
-  collectedAt: 2026-09-07T18:13:28+00:00
+  collectedAt: 2026-09-07T18:14:58+00:00
   platform:
     darwin/arm64:
       name:  jq-macos-arm64
