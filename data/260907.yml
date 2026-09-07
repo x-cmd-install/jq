@@ -1,13 +1,11 @@
 about:
-  description:
-  |
-    Command-line JSON processor
+  description: "Command-line JSON processor"
   license: NOASSERTION
   homepage: https://jqlang.org
   head: 9d241e2
   archived: false
-  latestVersion: jq-1.8.2
-  collectedAt: 2026-09-07T02:38:33Z
+  latestVersion: "jq-1.8.2"
+  collectedAt: 2026-09-07T02:40:29Z
 timeline:
   created: 2012-07-18
   lastCommit: 2026-09-01
@@ -90,7 +88,7 @@ total:
   commit: 1940
 ---
 path: /home/runner/.x-repo/github.com/jqlang/jq
-collectedAt: 2026-09-07T02:38:35Z
+collectedAt: 2026-09-07T02:40:31Z
 loc:
   C:
     code: 30415
@@ -345,3 +343,36 @@ checks:
     details:
       - 'Warn: 0 commits out of 19 are checked with a SAST tool'
 ---
+eget:
+  collectedAt: 2026-09-07T02:40:32+00:00
+  platform:
+    darwin/arm64:
+      name:  jq-macos-arm64
+      url:   https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-macos-arm64
+      size:  841504
+      score: 40
+    darwin/amd64:
+      name:  jq-osx-amd64
+      url:   https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-osx-amd64
+      size:  871768
+      score: 40
+    linux/arm64:
+      name:  jq-linux-arm64
+      url:   https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-linux-arm64
+      size:  1797688
+      score: 40
+    linux/amd64:
+      name:  jq-linux-amd64
+      url:   https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-linux-amd64
+      size:  2267912
+      score: 40
+    win/arm64:
+      name:  jq-windows-arm64.exe
+      url:   https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-windows-arm64.exe
+      size:  973312
+      score: 40
+    win/amd64:
+      name:  jq-windows-amd64.exe
+      url:   https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-windows-amd64.exe
+      size:  1035264
+      score: 40
