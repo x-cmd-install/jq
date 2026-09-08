@@ -7,7 +7,7 @@ about:
   latestVersion: "jq-1.8.2"
   latestRelease: "jq-1.8.2"
   latestPrerelease: "jq-1.7rc2"
-  collectedAt: 2026-09-08T10:11:31Z
+  collectedAt: 2026-09-08T18:13:04Z
 timeline:
   created: 2012-07-18
   lastCommit: 2026-09-01
@@ -92,7 +92,7 @@ total:
   commit: 1940
 ---
 path: /home/runner/.x-repo/github.com/jqlang/jq
-collectedAt: 2026-09-08T10:11:33Z
+collectedAt: 2026-09-08T18:13:06Z
 loc:
   C:
     code: 30415
@@ -200,22 +200,22 @@ total:
   blanks: 7519
   files: 154
 ---
-date: "2026-08-24"
+date: "2026-09-07"
 repo:
   name: github.com/stedolan/jq
-  commit: 41b8edfe5437fcd25a072081c05f9f770f9e9b85
+  commit: 9d241e277204b83c4a7ddc7d733e5c72f99ef500
 scorecard:
-  version: v5.5.1-0.20260815060127-d1fab88f5463
-  commit: d1fab88f54636ff366076edfc5c239f97b3c8e66
+  version: v5.5.0
+  commit: c395761df6afe1a69e476bc60a013a94bcbc153f
 score: 5.4
 checks:
   - name: Maintained
     score: 10
-    reason: 19 commit(s) and 3 issue activity found in the last 90 days -- score normalized to 10
+    reason: 19 commit(s) and 4 issue activity found in the last 90 days -- score normalized to 10
     details: null
   - name: Code-Review
     score: 5
-    reason: Found 14/26 approved changesets -- score normalized to 5
+    reason: Found 13/24 approved changesets -- score normalized to 5
     details: null
   - name: Security-Policy
     score: 10
@@ -228,10 +228,6 @@ checks:
   - name: Dangerous-Workflow
     score: 10
     reason: no dangerous workflow patterns detected
-    details: null
-  - name: CII-Best-Practices
-    score: 0
-    reason: no effort to earn an OpenSSF best practices badge detected
     details: null
   - name: Binary-Artifacts
     score: 10
@@ -250,29 +246,14 @@ checks:
       - 'Warn: no topLevel permission defined: .github/workflows/scanbuild.yml:1'
       - 'Warn: no topLevel permission defined: .github/workflows/valgrind.yml:1'
       - 'Warn: no topLevel permission defined: .github/workflows/website.yml:1'
-  - name: License
-    score: 9
-    reason: license file detected
-    details:
-      - 'Info: project has a license file: COPYING:0'
-      - 'Warn: project license file does not contain an FSF or OSI license.'
-  - name: Fuzzing
-    score: 10
-    reason: project is fuzzed
-    details:
-      - 'Info: OSSFuzz integration found'
-      - 'Info: CLibFuzzer integration found: tests/jq_fuzz_compile.c:7'
-      - 'Info: CLibFuzzer integration found: tests/jq_fuzz_load_file.c:7'
-      - 'Info: CLibFuzzer integration found: tests/jq_fuzz_parse.c:7'
-      - 'Info: CLibFuzzer integration found: tests/jq_fuzz_parse_extended.c:7'
-      - 'Info: CLibFuzzer integration found: tests/jq_fuzz_parse_stream.c:7'
+  - name: CII-Best-Practices
+    score: 0
+    reason: no effort to earn an OpenSSF best practices badge detected
+    details: null
   - name: Pinned-Dependencies
     score: 0
     reason: dependency not pinned by hash detected -- score normalized to 0
     details:
-      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/ci.yml:139: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/ci.yml/master?enable=pin'
-      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/ci.yml:171: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/ci.yml/master?enable=pin'
-      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/ci.yml:179: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/ci.yml/master?enable=pin'
       - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/ci.yml:216: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/ci.yml/master?enable=pin'
       - 'Warn: third-party GitHubAction not pinned by hash: .github/workflows/ci.yml:219: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/ci.yml/master?enable=pin'
       - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/ci.yml:250: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/ci.yml/master?enable=pin'
@@ -294,6 +275,9 @@ checks:
       - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/ci.yml:78: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/ci.yml/master?enable=pin'
       - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/ci.yml:106: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/ci.yml/master?enable=pin'
       - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/ci.yml:114: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/ci.yml/master?enable=pin'
+      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/ci.yml:139: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/ci.yml/master?enable=pin'
+      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/ci.yml:171: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/ci.yml/master?enable=pin'
+      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/ci.yml:179: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/ci.yml/master?enable=pin'
       - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/decnum.yml:13: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/decnum.yml/master?enable=pin'
       - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/decnum.yml:36: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/decnum.yml/master?enable=pin'
       - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/manpage.yml:23: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/manpage.yml/master?enable=pin'
@@ -306,10 +290,10 @@ checks:
       - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/scanbuild.yml:42: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/scanbuild.yml/master?enable=pin'
       - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/valgrind.yml:13: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/valgrind.yml/master?enable=pin'
       - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/valgrind.yml:35: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/valgrind.yml/master?enable=pin'
-      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/website.yml:46: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/website.yml/master?enable=pin'
       - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/website.yml:18: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/website.yml/master?enable=pin'
       - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/website.yml:20: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/website.yml/master?enable=pin'
       - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/website.yml:31: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/website.yml/master?enable=pin'
+      - 'Warn: GitHub-owned GitHubAction not pinned by hash: .github/workflows/website.yml:46: update your workflow using https://app.stepsecurity.io/secureworkflow/jqlang/jq/website.yml/master?enable=pin'
       - 'Warn: containerImage not pinned by hash: Dockerfile:1: pin your Docker image by updating debian:12-slim to debian:12-slim@sha256:88200866dfff7ea7f5cbcb6ec7c8a701889efe6fe859fe64d6990e4b07ea4171'
       - 'Warn: pipCommand not pinned by hash: .github/workflows/manpage.yml:31'
       - 'Warn: pipCommand not pinned by hash: .github/workflows/website.yml:26'
@@ -317,6 +301,27 @@ checks:
       - 'Info:   0 out of   7 third-party GitHubAction dependencies pinned'
       - 'Info:   0 out of   1 containerImage dependencies pinned'
       - 'Info:   0 out of   2 pipCommand dependencies pinned'
+  - name: License
+    score: 9
+    reason: license file detected
+    details:
+      - 'Info: project has a license file: COPYING:0'
+      - 'Warn: project license file does not contain an FSF or OSI license.'
+  - name: Fuzzing
+    score: 10
+    reason: project is fuzzed
+    details:
+      - 'Info: OSSFuzz integration found'
+      - 'Info: CLibFuzzer integration found: tests/jq_fuzz_compile.c:7'
+      - 'Info: CLibFuzzer integration found: tests/jq_fuzz_load_file.c:7'
+      - 'Info: CLibFuzzer integration found: tests/jq_fuzz_parse.c:7'
+      - 'Info: CLibFuzzer integration found: tests/jq_fuzz_parse_extended.c:7'
+      - 'Info: CLibFuzzer integration found: tests/jq_fuzz_parse_stream.c:7'
+  - name: Branch-Protection
+    score: 0
+    reason: branch protection not enabled on development/release branches
+    details:
+      - 'Warn: branch protection not enabled for branch ''master'''
   - name: Signed-Releases
     score: 0
     reason: Project has not signed or included provenance with any releases.
@@ -331,11 +336,6 @@ checks:
       - 'Warn: release artifact jq-1.8.0 does not have provenance: https://api.github.com/repos/jqlang/jq/releases/222262711'
       - 'Warn: release artifact jq-1.7.1 does not have provenance: https://api.github.com/repos/jqlang/jq/releases/133804159'
       - 'Warn: release artifact jq-1.7 does not have provenance: https://api.github.com/repos/jqlang/jq/releases/120201151'
-  - name: Branch-Protection
-    score: 0
-    reason: branch protection not enabled on development/release branches
-    details:
-      - 'Warn: branch protection not enabled for branch ''master'''
   - name: Packaging
     score: 10
     reason: packaging workflow detected
@@ -345,5 +345,5 @@ checks:
     score: 0
     reason: SAST tool is not run on all commits -- score normalized to 0
     details:
-      - 'Warn: 0 commits out of 19 are checked with a SAST tool'
+      - 'Warn: 0 commits out of 20 are checked with a SAST tool'
 ---
