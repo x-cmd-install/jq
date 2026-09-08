@@ -5,7 +5,7 @@ about:
   head: 9d241e2
   archived: false
   latestVersion: "jq-1.8.2"
-  collectedAt: 2026-09-08T00:39:45Z
+  collectedAt: 2026-09-08T01:08:44Z
 timeline:
   created: 2012-07-18
   lastCommit: 2026-09-01
@@ -88,7 +88,7 @@ total:
   commit: 1940
 ---
 path: /home/runner/.x-repo/github.com/jqlang/jq
-collectedAt: 2026-09-08T00:39:49Z
+collectedAt: 2026-09-08T01:08:46Z
 loc:
   C:
     code: 30415
