@@ -5,15 +5,19 @@ about:
   head: 9d241e2
   archived: false
   latestVersion: "jq-1.8.2"
-  collectedAt: 2026-09-08T01:26:56Z
+  latestRelease: "jq-1.8.2"
+  latestPrerelease: "jq-1.7rc2"
+  collectedAt: 2026-09-08T09:23:28Z
 timeline:
   created: 2012-07-18
   lastCommit: 2026-09-01
+  lastVersion: 2026-06-20
   lastRelease: 2026-06-20
+  lastPrerelease: 2023-08-27
 popularity:
-  star: 35560
+  star: 35563
   watcher: 357
-  fork: 1839
+  fork: 1840
   release: 16
   contributor: 241
   pullRequest: 1202
@@ -88,7 +92,7 @@ total:
   commit: 1940
 ---
 path: /home/runner/.x-repo/github.com/jqlang/jq
-collectedAt: 2026-09-08T01:27:01Z
+collectedAt: 2026-09-08T09:23:32Z
 loc:
   C:
     code: 30415
@@ -343,10 +347,3 @@ checks:
     details:
       - 'Warn: 0 commits out of 19 are checked with a SAST tool'
 ---
-platform	name	url	size	score
-darwin/arm64	jq-macos-arm64	https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-macos-arm64	841504	40
-darwin/amd64	jq-osx-amd64	https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-osx-amd64	871768	40
-linux/arm64	jq-linux-arm64	https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-linux-arm64	1797688	40
-linux/amd64	jq-linux-amd64	https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-linux-amd64	2267912	40
-win/arm64	jq-windows-arm64.exe	https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-windows-arm64.exe	973312	40
-win/amd64	jq-windows-amd64.exe	https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-windows-amd64.exe	1035264	40
