@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 1959950,
       "digest": "sha256:71b8d6e8f5fe81f6c6d0d110e3892251f6ce76ed095abd315e26e6e1193af3af",
-      "download_count": 57775,
+      "download_count": 57781,
       "created_at": "2026-06-20T14:10:26Z",
       "updated_at": "2026-06-20T14:10:27Z",
       "browser_download_url": "https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-1.8.2.tar.gz"
