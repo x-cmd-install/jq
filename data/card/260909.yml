@@ -7,7 +7,7 @@ about:
   latestVersion: "jq-1.8.2"
   latestRelease: "jq-1.8.2"
   latestPrerelease: "jq-1.7rc2"
-  collectedAt: 2026-09-09T18:36:57Z
+  collectedAt: 2026-09-09T23:02:43Z
 timeline:
   created: 2012-07-18
   lastCommit: 2026-09-01
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2026-06-20
   lastPrerelease: 2023-08-27
 popularity:
-  star: 35558
+  star: 35559
   watcher: 357
   fork: 1840
   release: 16
@@ -92,7 +92,7 @@ total:
   commit: 1940
 ---
 path: /home/runner/.x-repo/github.com/jqlang/jq
-collectedAt: 2026-09-09T18:36:58Z
+collectedAt: 2026-09-09T23:02:46Z
 loc:
   C:
     code: 30415
