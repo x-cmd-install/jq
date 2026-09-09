@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 1959950,
       "digest": "sha256:71b8d6e8f5fe81f6c6d0d110e3892251f6ce76ed095abd315e26e6e1193af3af",
-      "download_count": 57118,
+      "download_count": 57775,
       "created_at": "2026-06-20T14:10:26Z",
       "updated_at": "2026-06-20T14:10:27Z",
       "browser_download_url": "https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-1.8.2.tar.gz"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 2173796,
       "digest": "sha256:332dd9ae07c19fb47f6e8c4dd973a141064c0d35363c254235ee84d2d9e0167c",
-      "download_count": 2447,
+      "download_count": 2461,
       "created_at": "2026-06-20T14:10:26Z",
       "updated_at": "2026-06-20T14:10:27Z",
       "browser_download_url": "https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-1.8.2.zip"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 14380,
       "digest": "sha256:01e9619236573939473c0f2eb2c5c38dc0f066fbdc89a5357a6f3f2954e00eed",
-      "download_count": 420,
+      "download_count": 422,
       "created_at": "2026-06-20T14:10:26Z",
       "updated_at": "2026-06-20T14:10:27Z",
       "browser_download_url": "https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-attestation.json"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 2267912,
       "digest": "sha256:b1c22172dd303f3be49e935aa56aa48a8b7a46e0bc838b4997d3bb451495870f",
-      "download_count": 1372212,
+      "download_count": 1387260,
       "created_at": "2026-06-20T14:10:26Z",
       "updated_at": "2026-06-20T14:10:27Z",
       "browser_download_url": "https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-linux-amd64"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 1797688,
       "digest": "sha256:8b85c817833814ddca00a144c33705546355afccf0cf39b188f3cdb48b852309",
-      "download_count": 222633,
+      "download_count": 225603,
       "created_at": "2026-06-20T14:10:26Z",
       "updated_at": "2026-06-20T14:10:27Z",
       "browser_download_url": "https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-linux-arm64"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 1700244,
       "digest": "sha256:d88f6bd640ef8909b3deb587f12c03a0ed38fe8bd5e2e882e2b1bf88f5dab8d2",
-      "download_count": 234,
+      "download_count": 236,
       "created_at": "2026-06-20T14:10:27Z",
       "updated_at": "2026-06-20T14:10:27Z",
       "browser_download_url": "https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-linux-armel"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 1340000,
       "digest": "sha256:78458244fb546469b4042e9e07cf78714ef6848895eb9515df76b4eb0b1dc992",
-      "download_count": 364,
+      "download_count": 383,
       "created_at": "2026-06-20T14:10:27Z",
       "updated_at": "2026-06-20T14:10:27Z",
       "browser_download_url": "https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-linux-armhf"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 2156424,
       "digest": "sha256:ba996e8ce436973e2f39e2639405a37e8c81ba8c722b71c83996278ad0af16dd",
-      "download_count": 750,
+      "download_count": 759,
       "created_at": "2026-06-20T14:10:27Z",
       "updated_at": "2026-06-20T14:10:27Z",
       "browser_download_url": "https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-linux-i386"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 2007040,
       "digest": "sha256:1e9930ef7c4e69a49c2e5e9a1a5b1240a36d10123fa8524952ddeaedc039ad72",
-      "download_count": 176,
+      "download_count": 177,
       "created_at": "2026-06-20T14:10:27Z",
       "updated_at": "2026-06-20T14:10:27Z",
       "browser_download_url": "https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-linux-mips"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 2081176,
       "digest": "sha256:34e53f8df8298fd609f8e3dcc7eae1d8a741976f289909286601443caf64229a",
-      "download_count": 187,
+      "download_count": 206,
       "created_at": "2026-06-20T14:10:27Z",
       "updated_at": "2026-06-20T14:10:27Z",
       "browser_download_url": "https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-linux-mips64"
@@ -427,7 +427,7 @@
       "state": "uploaded",
       "size": 2081176,
       "digest": "sha256:eb382d2419aa99c82b8fb1cbb0d1cfa3da71b0852108f9140ca1ddcfd3d33d81",
-      "download_count": 154,
+      "download_count": 155,
       "created_at": "2026-06-20T14:10:27Z",
       "updated_at": "2026-06-20T14:10:28Z",
       "browser_download_url": "https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-linux-mips64el"
@@ -463,7 +463,7 @@
       "state": "uploaded",
       "size": 2015472,
       "digest": "sha256:365c0bcda2e695ab1e6f3372094d812e914784c03aa45ca4b67b93cc54fc78d9",
-      "download_count": 152,
+      "download_count": 153,
       "created_at": "2026-06-20T14:10:27Z",
       "updated_at": "2026-06-20T14:10:28Z",
       "browser_download_url": "https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-linux-mips64r6"
@@ -499,7 +499,7 @@
       "state": "uploaded",
       "size": 2015472,
       "digest": "sha256:01bfe1a1579cfac74a680870031e1d4bdd500040fae18fd9e2a27ada8e555a80",
-      "download_count": 149,
+      "download_count": 150,
       "created_at": "2026-06-20T14:10:27Z",
       "updated_at": "2026-06-20T14:10:28Z",
       "browser_download_url": "https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-linux-mips64r6el"
@@ -535,7 +535,7 @@
       "state": "uploaded",
       "size": 2072576,
       "digest": "sha256:9570c9dcbd7d0de85b16a00046a3e5a9ba72aabe4b85c8f5f8b5927aed8d664e",
-      "download_count": 156,
+      "download_count": 157,
       "created_at": "2026-06-20T14:10:27Z",
       "updated_at": "2026-06-20T14:10:28Z",
       "browser_download_url": "https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-linux-mipsel"
@@ -571,7 +571,7 @@
       "state": "uploaded",
       "size": 1941296,
       "digest": "sha256:d2105ab249e66dc14465982d4b8b3e8cf0e6301eb606fa6116dfe0bfacbfb918",
-      "download_count": 148,
+      "download_count": 149,
       "created_at": "2026-06-20T14:10:28Z",
       "updated_at": "2026-06-20T14:10:28Z",
       "browser_download_url": "https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-linux-mipsr6"
@@ -607,7 +607,7 @@
       "state": "uploaded",
       "size": 1941296,
       "digest": "sha256:5e66dcad39eaa2d1e5b2eb01e2f378a3bfdf0ee2ebeb571cc87512ca4f38dec6",
-      "download_count": 146,
+      "download_count": 147,
       "created_at": "2026-06-20T14:10:28Z",
       "updated_at": "2026-06-20T14:10:28Z",
       "browser_download_url": "https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-linux-mipsr6el"
@@ -643,7 +643,7 @@
       "state": "uploaded",
       "size": 2187392,
       "digest": "sha256:d60c33574fdeab53ae15feb37598249ce4ab6a344adde6f22abba38cf7a8de6e",
-      "download_count": 146,
+      "download_count": 147,
       "created_at": "2026-06-20T14:10:28Z",
       "updated_at": "2026-06-20T14:10:28Z",
       "browser_download_url": "https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-linux-powerpc"
@@ -679,7 +679,7 @@
       "state": "uploaded",
       "size": 2453424,
       "digest": "sha256:0dba61281e525ced2111bc00c8bd8078100e8822c33bfb35feee95314bbeeea2",
-      "download_count": 211,
+      "download_count": 213,
       "created_at": "2026-06-20T14:10:28Z",
       "updated_at": "2026-06-20T14:10:28Z",
       "browser_download_url": "https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-linux-ppc64el"
@@ -715,7 +715,7 @@
       "state": "uploaded",
       "size": 1609208,
       "digest": "sha256:a96e5a78a7b2c5a0575bc2a10dda4b20d84efd8c02c8806539ee5f5e57603e8d",
-      "download_count": 166,
+      "download_count": 167,
       "created_at": "2026-06-20T14:10:28Z",
       "updated_at": "2026-06-20T14:10:28Z",
       "browser_download_url": "https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-linux-riscv64"
@@ -751,7 +751,7 @@
       "state": "uploaded",
       "size": 1990096,
       "digest": "sha256:42b3306c786e3352e3097b8aa03ca0e5631bdc7a6bf133bb8ddd9e4b148d20c8",
-      "download_count": 199,
+      "download_count": 201,
       "created_at": "2026-06-20T14:10:28Z",
       "updated_at": "2026-06-20T14:10:29Z",
       "browser_download_url": "https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-linux-s390x"
@@ -787,7 +787,7 @@
       "state": "uploaded",
       "size": 2267912,
       "digest": "sha256:b1c22172dd303f3be49e935aa56aa48a8b7a46e0bc838b4997d3bb451495870f",
-      "download_count": 475620,
+      "download_count": 480515,
       "created_at": "2026-06-20T14:10:28Z",
       "updated_at": "2026-06-20T14:10:29Z",
       "browser_download_url": "https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-linux64"
@@ -823,7 +823,7 @@
       "state": "uploaded",
       "size": 871768,
       "digest": "sha256:e94b266e3c26690550006abe63152b782280f4e14374accdf04cbde844f00bc0",
-      "download_count": 56027,
+      "download_count": 56338,
       "created_at": "2026-06-20T14:10:28Z",
       "updated_at": "2026-06-20T14:10:29Z",
       "browser_download_url": "https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-macos-amd64"
@@ -859,7 +859,7 @@
       "state": "uploaded",
       "size": 841504,
       "digest": "sha256:2d75340ba57a4b4b4c8708a21c2dc8e958a48aaa8bba13b27f77f6e4c0eca07e",
-      "download_count": 379570,
+      "download_count": 384478,
       "created_at": "2026-06-20T14:10:29Z",
       "updated_at": "2026-06-20T14:10:29Z",
       "browser_download_url": "https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-macos-arm64"
@@ -895,7 +895,7 @@
       "state": "uploaded",
       "size": 871768,
       "digest": "sha256:e94b266e3c26690550006abe63152b782280f4e14374accdf04cbde844f00bc0",
-      "download_count": 11400,
+      "download_count": 11551,
       "created_at": "2026-06-20T14:10:29Z",
       "updated_at": "2026-06-20T14:10:29Z",
       "browser_download_url": "https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-osx-amd64"
@@ -931,7 +931,7 @@
       "state": "uploaded",
       "size": 1035264,
       "digest": "sha256:a6fc67fedaf9128a3309a1e2ebb8b986aeccf70122ee46d2cb4849e423f0c627",
-      "download_count": 37566,
+      "download_count": 38024,
       "created_at": "2026-06-20T14:10:29Z",
       "updated_at": "2026-06-20T14:10:29Z",
       "browser_download_url": "https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-win64.exe"
@@ -967,7 +967,7 @@
       "state": "uploaded",
       "size": 1035264,
       "digest": "sha256:a6fc67fedaf9128a3309a1e2ebb8b986aeccf70122ee46d2cb4849e423f0c627",
-      "download_count": 295290,
+      "download_count": 298688,
       "created_at": "2026-06-20T14:10:29Z",
       "updated_at": "2026-06-20T14:10:29Z",
       "browser_download_url": "https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-windows-amd64.exe"
@@ -1003,7 +1003,7 @@
       "state": "uploaded",
       "size": 973312,
       "digest": "sha256:083b5377392bc57cf27052b6d20a2d927770683bca844632901ff38b4b7b0ac7",
-      "download_count": 3868,
+      "download_count": 3911,
       "created_at": "2026-06-20T14:10:29Z",
       "updated_at": "2026-06-20T14:10:29Z",
       "browser_download_url": "https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-windows-arm64.exe"
@@ -1039,7 +1039,7 @@
       "state": "uploaded",
       "size": 1082368,
       "digest": "sha256:a99cb668f95bdd788d9ee20529613b115e5d2a0d7f9127ee6976607e878558ba",
-      "download_count": 2745,
+      "download_count": 2763,
       "created_at": "2026-06-20T14:10:29Z",
       "updated_at": "2026-06-20T14:10:29Z",
       "browser_download_url": "https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-windows-i386.exe"
@@ -1075,7 +1075,7 @@
       "state": "uploaded",
       "size": 2302,
       "digest": "sha256:dc86824a41c165ece971ff691aff6e08bbfe6e1d1f531688b47ee78c283a85cd",
-      "download_count": 169416,
+      "download_count": 171929,
       "created_at": "2026-06-20T14:10:29Z",
       "updated_at": "2026-06-20T14:10:29Z",
       "browser_download_url": "https://github.com/jqlang/jq/releases/download/jq-1.8.2/sha256sum.txt"
