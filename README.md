@@ -2,23 +2,47 @@
 
 Command-line JSON processor
 
-- **Upstream**: <https://github.com/jqlang/jq>
-- **Homepage**: <https://jqlang.org>
-- **Latest release**: `jq-1.8.2` (2026-06-20)
-- **Last commit**: 2026-09-01
-- **License**: NOASSERTION
-- **Stars**: 35558 · **Forks**: 1840 · **Open issues**: 2352 · **Contributors**: 241
-
-## Installation
+## Install
 
 ```sh
 x install jq
 ```
 
-See <https://x-cmd.com/install/jq> for details.
+## Source
 
-## Data
+- **Upstream**: <https://github.com/jqlang/jq>
+- **Homepage**: <https://jqlang.org>
+- **License**: NOASSERTION
 
-This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260909.yml`. Merged card+release view: `data/latest.report.yml`.
+## Release
 
-_Last regenerated: 2026-09-09T18:37:01Z._
+- **Latest**: `jq-1.8.2` (2026-06-20)
+- **Last commit**: 2026-09-01
+
+## Popularity
+
+- **Stars**: 35,559 · **Forks**: 1,840 · **Open issues**: 2,352 · **Contributors**: 241
+
+## Code size
+
+Total: **56,907** lines of code across 103 of the top files.
+
+| Language | Code | Files |
+|----------|-----:|------:|
+| C | 30,415 | 45 |
+| Yaml | 18,687 | 11 |
+| CHeader | 4,162 | 32 |
+| Sh | 955 | 14 |
+| Happy | 901 | 1 |
+
+## OpenSSF Scorecard
+
+Overall score: **5.4 / 10**
+
+Lowest-scoring checks:
+
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
+- **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
+
+_Snapshot: `data/card/260909.yml` · 2026-09-09T23:02:51Z._
