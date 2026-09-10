@@ -7,7 +7,7 @@ about:
   latestVersion: "jq-1.8.2"
   latestRelease: "jq-1.8.2"
   latestPrerelease: "jq-1.7rc2"
-  collectedAt: 2026-09-10T06:04:03Z
+  collectedAt: 2026-09-10T11:19:00Z
 timeline:
   created: 2012-07-18
   lastCommit: 2026-09-01
@@ -15,12 +15,12 @@ timeline:
   lastRelease: 2026-06-20
   lastPrerelease: 2023-08-27
 popularity:
-  star: 35564
+  star: 35572
   watcher: 357
   fork: 1841
   release: 16
   contributor: 241
-  pullRequest: 1203
+  pullRequest: 1204
   issue: 2352
 language:
   C: 527712
@@ -39,7 +39,7 @@ recent:
     since: 2026-08-11
     release: 0
     mergedPR: 5
-    openPR: 18
+    openPR: 19
     closedIssue: 2
     openIssue: 0
     commit: 6
@@ -47,7 +47,7 @@ recent:
     since: 2026-07-12
     release: 0
     mergedPR: 9
-    openPR: 26
+    openPR: 27
     closedIssue: 3
     openIssue: 4
     commit: 11
@@ -55,7 +55,7 @@ recent:
     since: 2026-06-12
     release: 1
     mergedPR: 13
-    openPR: 27
+    openPR: 28
     closedIssue: 11
     openIssue: 6
     commit: 19
@@ -63,7 +63,7 @@ recent:
     since: 2026-03-14
     release: 1
     mergedPR: 28
-    openPR: 40
+    openPR: 41
     closedIssue: 21
     openIssue: 9
     commit: 47
@@ -71,7 +71,7 @@ recent:
     since: 2025-09-15
     release: 1
     mergedPR: 65
-    openPR: 47
+    openPR: 48
     closedIssue: 48
     openIssue: 21
     commit: 87
@@ -79,20 +79,20 @@ recent:
     since: 2024-09-20
     release: 3
     mergedPR: 165
-    openPR: 59
+    openPR: 60
     closedIssue: 111
     openIssue: 36
     commit: 206
 total:
   release: 16
   mergedPR: 715
-  openPR: 123
+  openPR: 124
   closedIssue: 1996
   openIssue: 356
   commit: 1940
 ---
 path: /home/runner/.x-repo/github.com/jqlang/jq
-collectedAt: 2026-09-10T06:04:05Z
+collectedAt: 2026-09-10T11:19:03Z
 loc:
   C:
     code: 30415
