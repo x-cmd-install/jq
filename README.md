@@ -12,6 +12,28 @@ Command-line JSON processor
 x install jq
 ```
 
+## Code insight
+
+Total: **56,907** lines of code across **103** files in the top 5 languages.
+
+| Language | Code | Comments | Blanks | Files |
+|----------|-----:|---------:|-------:|------:|
+| C | 30,415 | 7,836 | 3,565 | 45 |
+| Yaml | 18,687 | 52 | 2,709 | 11 |
+| CHeader | 4,162 | 740 | 512 | 32 |
+| Sh | 955 | 116 | 161 | 14 |
+| Happy | 901 | 0 | 71 | 1 |
+
+## OpenSSF Scorecard
+
+Overall score: **5.4 / 10**
+
+Lowest-scoring checks:
+
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
+- **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
+
 ## Source
 
 - **Upstream**: <https://github.com/jqlang/jq>
@@ -37,30 +59,11 @@ x install jq
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 5 | 19 | 2 | 0 | 6 |
+| last60d | 2026-07-12 | 0 | 9 | 27 | 3 | 4 | 11 |
 | 90d | 2026-06-12 | 1 | 13 | 28 | 11 | 6 | 19 |
+| last180d | 2026-03-14 | 1 | 28 | 41 | 21 | 9 | 47 |
 | 360d | 2025-09-15 | 1 | 65 | 48 | 48 | 21 | 87 |
-
-## Code size
-
-Total: **56,907** lines of code across **103** files in the top 5 languages.
-
-| Language | Code | Comments | Blanks | Files |
-|----------|-----:|---------:|-------:|------:|
-| C | 30,415 | 7,836 | 3,565 | 45 |
-| Yaml | 18,687 | 52 | 2,709 | 11 |
-| CHeader | 4,162 | 740 | 512 | 32 |
-| Sh | 955 | 116 | 161 | 14 |
-| Happy | 901 | 0 | 71 | 1 |
-
-## OpenSSF Scorecard
-
-Overall score: **5.4 / 10**
-
-Lowest-scoring checks:
-
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
-- **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
+| last720d | 2024-09-20 | 3 | 165 | 60 | 111 | 36 | 206 |
 
 ## Release assets
 
@@ -124,4 +127,4 @@ Install metadata for jq lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T19:51:44Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T19:55:58Z._

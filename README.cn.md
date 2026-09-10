@@ -12,6 +12,28 @@ Command-line JSON processor
 x install jq
 ```
 
+## 代码规模
+
+合计: **56,907** 行代码（覆盖前 5 种语言、共 **103** 个文件）。
+
+| 语言 | 代码 | 注释 | 空行 | 文件数 |
+|------|-----:|-----:|-----:|------:|
+| C | 30,415 | 7,836 | 3,565 | 45 |
+| Yaml | 18,687 | 52 | 2,709 | 11 |
+| CHeader | 4,162 | 740 | 512 | 32 |
+| Sh | 955 | 116 | 161 | 14 |
+| Happy | 901 | 0 | 71 | 1 |
+
+## OpenSSF Scorecard 评分
+
+总评分: **5.4 / 10**
+
+评分最低的几项:
+
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
+- **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
+
 ## 源代码
 
 - **上游仓库**: <https://github.com/jqlang/jq>
@@ -37,30 +59,11 @@ x install jq
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 5 | 19 | 2 | 0 | 6 |
+| last60d | 2026-07-12 | 0 | 9 | 27 | 3 | 4 | 11 |
 | 90d | 2026-06-12 | 1 | 13 | 28 | 11 | 6 | 19 |
+| last180d | 2026-03-14 | 1 | 28 | 41 | 21 | 9 | 47 |
 | 360d | 2025-09-15 | 1 | 65 | 48 | 48 | 21 | 87 |
-
-## 代码规模
-
-合计: **56,907** 行代码（覆盖前 5 种语言、共 **103** 个文件）。
-
-| 语言 | 代码 | 注释 | 空行 | 文件数 |
-|------|-----:|-----:|-----:|------:|
-| C | 30,415 | 7,836 | 3,565 | 45 |
-| Yaml | 18,687 | 52 | 2,709 | 11 |
-| CHeader | 4,162 | 740 | 512 | 32 |
-| Sh | 955 | 116 | 161 | 14 |
-| Happy | 901 | 0 | 71 | 1 |
-
-## OpenSSF Scorecard 评分
-
-总评分: **5.4 / 10**
-
-评分最低的几项:
-
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
-- **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
+| last720d | 2024-09-20 | 3 | 165 | 60 | 111 | 36 | 206 |
 
 ## Release 资产
 
@@ -124,4 +127,4 @@ jq 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T19:51:46Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T19:55:59Z._
