@@ -1,6 +1,6 @@
 # jq
 
-[中文版本](./README.md)
+[English version](./README.md)
 
 Command-line JSON processor
 
@@ -25,7 +25,7 @@ x install jq
 
 ## 流行度
 
-- **Star**: 35,559 · **Fork**: 1,841 · **开放 issue**: 2,352 · **贡献者**: 241
+- **Star**: 35,561 · **Fork**: 1,841 · **开放 issue**: 2,352 · **贡献者**: 241
 
 ## 代码规模
 
@@ -49,4 +49,4 @@ x install jq
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 - **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T01:42:56Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T01:45:40Z._

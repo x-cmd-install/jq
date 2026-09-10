@@ -1,6 +1,6 @@
 # jq
 
-[English version](./README.cn.md)
+[中文版本](./README.cn.md)
 
 Command-line JSON processor
 
@@ -25,7 +25,7 @@ x install jq
 
 ## Popularity
 
-- **Stars**: 35,559 · **Forks**: 1,841 · **Open issues**: 2,352 · **Contributors**: 241
+- **Stars**: 35,561 · **Forks**: 1,841 · **Open issues**: 2,352 · **Contributors**: 241
 
 ## Code size
 
@@ -49,4 +49,4 @@ Lowest-scoring checks:
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 - **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T01:42:56Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T01:45:38Z._
