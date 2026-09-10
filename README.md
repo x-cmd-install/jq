@@ -2,6 +2,8 @@
 
 Command-line JSON processor
 
+![jq](https://repo.x-cmd.io/jq.svg)
+
 ## Install
 
 ```sh
