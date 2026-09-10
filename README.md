@@ -98,22 +98,22 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **266** distros on repology.org. **81** are on the latest upstream release, **172** are on an older version.
+Reported by **266** distros on [repology.org](https://repology.org/project/jq). **81** are ✅ on the latest upstream release, **172** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Debian unstable | `1.8.2` | ✓ latest |
-| Debian 14 | `1.8.2` | ✓ latest |
-| Debian 13 | `1.7.1` | outdated |
-| Ubuntu 26.04 LTS | `1.8.1` | outdated |
-| Ubuntu 24.04 LTS | `1.7.1` | outdated |
-| Arch | `1.8.2` | ✓ latest |
-| Homebrew | `1.8.2` | ✓ latest |
-| Fedora rawhide | `1.8.2` | ✓ latest |
-| Nix unstable | `1.8.2` | ✓ latest |
-| Void | `1.8.2` | ✓ latest |
-| Alpine edge | `1.8.2` | ✓ latest |
-| openSUSE Tumbleweed | `1.8.2` | ✓ latest |
+| Debian unstable | `1.8.2` | ✅ latest |
+| Debian 14 | `1.8.2` | ✅ latest |
+| Debian 13 | `1.7.1` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.8.1` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `1.7.1` | ⚠️ outdated |
+| Arch | `1.8.2` | ✅ latest |
+| Homebrew | `1.8.2` | ✅ latest |
+| Fedora rawhide | `1.8.2` | ✅ latest |
+| Nix unstable | `1.8.2` | ✅ latest |
+| Void | `1.8.2` | ✅ latest |
+| Alpine edge | `1.8.2` | ✅ latest |
+| openSUSE Tumbleweed | `1.8.2` | ✅ latest |
 
 ## Improve this data
 
@@ -124,4 +124,4 @@ Install metadata for jq lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T18:34:10Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T19:04:50Z._

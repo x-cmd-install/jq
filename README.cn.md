@@ -98,22 +98,22 @@ x install jq
 
 ## 发行版状态
 
-在 repology.org 上共有 **266** 个发行版报告此项目。**81** 个已是最新上游版本，**172** 个使用旧版本。
+在 [repology.org](https://repology.org/project/jq) 上共有 **266** 个发行版报告此项目。**81** 个 ✅ 已是最新上游版本，**172** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
-| Debian unstable | `1.8.2` | ✓ latest |
-| Debian 14 | `1.8.2` | ✓ latest |
-| Debian 13 | `1.7.1` | outdated |
-| Ubuntu 26.04 LTS | `1.8.1` | outdated |
-| Ubuntu 24.04 LTS | `1.7.1` | outdated |
-| Arch | `1.8.2` | ✓ latest |
-| Homebrew | `1.8.2` | ✓ latest |
-| Fedora rawhide | `1.8.2` | ✓ latest |
-| Nix unstable | `1.8.2` | ✓ latest |
-| Void | `1.8.2` | ✓ latest |
-| Alpine edge | `1.8.2` | ✓ latest |
-| openSUSE Tumbleweed | `1.8.2` | ✓ latest |
+| Debian unstable | `1.8.2` | ✅ latest |
+| Debian 14 | `1.8.2` | ✅ latest |
+| Debian 13 | `1.7.1` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.8.1` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `1.7.1` | ⚠️ outdated |
+| Arch | `1.8.2` | ✅ latest |
+| Homebrew | `1.8.2` | ✅ latest |
+| Fedora rawhide | `1.8.2` | ✅ latest |
+| Nix unstable | `1.8.2` | ✅ latest |
+| Void | `1.8.2` | ✅ latest |
+| Alpine edge | `1.8.2` | ✅ latest |
+| openSUSE Tumbleweed | `1.8.2` | ✅ latest |
 
 ## 改进这些数据
 
@@ -124,4 +124,4 @@ jq 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T18:34:10Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T19:04:51Z._
