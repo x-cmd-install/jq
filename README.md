@@ -23,7 +23,7 @@ x install jq
 
 ## Popularity
 
-- **Stars**: 35,559 · **Forks**: 1,840 · **Open issues**: 2,352 · **Contributors**: 241
+- **Stars**: 35,559 · **Forks**: 1,841 · **Open issues**: 2,352 · **Contributors**: 241
 
 ## Code size
 
@@ -47,4 +47,4 @@ Lowest-scoring checks:
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 - **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
 
-_Snapshot: `data/card/260909.yml` · 2026-09-09T23:02:51Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T01:40:15Z._
