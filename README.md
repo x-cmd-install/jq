@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 0 | 5 | 19 | 2 | 0 | 6 |
-| last60d | 2026-07-12 | 0 | 9 | 27 | 3 | 4 | 11 |
-| 90d | 2026-06-12 | 1 | 13 | 28 | 11 | 6 | 19 |
-| last180d | 2026-03-14 | 1 | 28 | 41 | 21 | 9 | 47 |
-| 360d | 2025-09-15 | 1 | 65 | 48 | 48 | 21 | 87 |
-| last720d | 2024-09-20 | 3 | 165 | 60 | 111 | 36 | 206 |
+| 30d | 2026-08-12 | 0 | 3 | 19 | 2 | 0 | 6 |
+| last60d | 2026-07-13 | 0 | 9 | 27 | 3 | 4 | 11 |
+| 90d | 2026-06-13 | 1 | 13 | 28 | 11 | 6 | 19 |
+| last180d | 2026-03-15 | 1 | 28 | 41 | 21 | 9 | 47 |
+| 360d | 2025-09-16 | 1 | 65 | 48 | 48 | 21 | 87 |
+| last720d | 2024-09-21 | 3 | 165 | 59 | 111 | 36 | 206 |
 
 ## Release assets
 
@@ -101,7 +101,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **266** distros on [repology.org](https://repology.org/project/jq). **81** are ✅ on the latest upstream release, **172** are ⚠️ on an older version.
+Reported by **265** distros on [repology.org](https://repology.org/project/jq). **81** are ✅ on the latest upstream release, **171** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -111,7 +111,7 @@ Reported by **266** distros on [repology.org](https://repology.org/project/jq). 
 | Ubuntu 26.04 LTS | `1.8.1` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.7.1` | ⚠️ outdated |
 | Arch | `1.8.2` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `1.8.2` | ✅ latest |
 | Fedora rawhide | `1.8.2` | ✅ latest |
 | Nix unstable | `1.8.2` | ✅ latest |
 | Void | `1.8.2` | ✅ latest |
@@ -127,4 +127,4 @@ Install metadata for jq lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T22:04:51Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T06:08:55Z._
