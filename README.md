@@ -4,7 +4,7 @@
 
 Command-line JSON processor
 
-![jq](https://repo.x-cmd.io/jq.svg)
+[![x-cmd/install — jq Code Quality Monitoring Repo Card](https://repo.x-cmd.io/jq.svg)](https://x-cmd.com/install/jq)
 
 ## Install
 
