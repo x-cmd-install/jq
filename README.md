@@ -24,6 +24,8 @@ Total: **56,937** lines of code across **103** files in the top 5 languages.
 | Sh | 955 | 116 | 161 | 14 |
 | Happy | 901 | 0 | 71 | 1 |
 
+[![jq — code insight (stacked: code/comments/blanks + line: files)](https://x-cmd.com/draw?type=combo&stack=1&title=jq%20code%20insight&labels=C,Yaml,CHeader,Sh,Happy&series=code:30396,18706,4179,955,901&series=comments:7838,52,757,116,0&series=blanks:3563,2726,512,161,71&line=files:45,11,32,14,1)](https://x-cmd.com/draw?type=combo&stack=1&title=jq%20code%20insight&labels=C,Yaml,CHeader,Sh,Happy&series=code:30396,18706,4179,955,901&series=comments:7838,52,757,116,0&series=blanks:3563,2726,512,161,71&line=files:45,11,32,14,1)
+
 ## OpenSSF Scorecard
 
 Overall score: **5.6 / 10**
