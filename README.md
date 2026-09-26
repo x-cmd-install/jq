@@ -14,11 +14,11 @@ x install jq
 
 ## Code insight
 
-Total: **56,937** lines of code across **103** files in the top 5 languages.
+Total: **56,939** lines of code across **103** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 30,396 | 7,838 | 3,563 | 45 |
+| C | 30,398 | 7,841 | 3,563 | 45 |
 | Yaml | 18,706 | 52 | 2,726 | 11 |
 | CHeader | 4,179 | 757 | 512 | 32 |
 | Sh | 955 | 116 | 161 | 14 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `jq-1.8.2` (2026-06-20)
-- **Last commit**: 2026-09-19
+- **Last commit**: 2026-09-25
 - **Assets in release**: 29
 
 ## Popularity
 
-- **Stars**: 35,687 · **Forks**: 2,557 · **Open issues**: 2,354 · **Contributors**: 244
+- **Stars**: 35,694 · **Forks**: 2,712 · **Open issues**: 2,354 · **Contributors**: 245
 
 ## Totals (cumulative)
 
-- **Releases**: 16 · **Merged PRs**: 724 · **Open PRs**: 105 · **Closed issues**: 2009 · **Open issues**: 345 · **Commits**: 1949
+- **Releases**: 16 · **Merged PRs**: 725 · **Open PRs**: 105 · **Closed issues**: 2010 · **Open issues**: 344 · **Commits**: 1950
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-26 | 0 | 9 | 8 | 4 | 0 | 11 |
-| last60d | 2026-07-27 | 0 | 14 | 16 | 4 | 0 | 16 |
-| 90d | 2026-06-27 | 0 | 19 | 19 | 12 | 3 | 21 |
-| last180d | 2026-03-29 | 1 | 35 | 29 | 26 | 5 | 56 |
-| 360d | 2025-09-30 | 1 | 71 | 37 | 51 | 17 | 92 |
-| last720d | 2024-10-05 | 3 | 170 | 47 | 118 | 28 | 215 |
+| 30d | 2026-08-27 | 0 | 10 | 8 | 4 | 0 | 12 |
+| last60d | 2026-07-28 | 0 | 15 | 16 | 4 | 0 | 17 |
+| 90d | 2026-06-28 | 0 | 20 | 19 | 12 | 2 | 22 |
+| last180d | 2026-03-30 | 1 | 34 | 29 | 27 | 4 | 57 |
+| 360d | 2025-10-01 | 1 | 69 | 37 | 51 | 16 | 93 |
+| last720d | 2024-10-06 | 3 | 171 | 47 | 119 | 27 | 214 |
 
 ## Release assets
 
@@ -108,4 +108,4 @@ Install metadata for jq lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260925.yml` · 2026-09-25T06:04:40Z._
+_Snapshot: `data/card/260926.yml` · 2026-09-26T05:58:49Z._
