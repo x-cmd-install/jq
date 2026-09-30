@@ -26,13 +26,13 @@ x install jq
 
 ## OpenSSF Scorecard 评分
 
-总评分: **5.6 / 10**
+总评分: **5.7 / 10**
 
 评分最低的几项:
 
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
-- **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
+- **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
 
 ## 源代码
 
@@ -48,22 +48,22 @@ x install jq
 
 ## 流行度
 
-- **Star**: 35,716 · **Fork**: 3,073 · **开放 issue**: 2,355 · **贡献者**: 246
+- **Star**: 35,729 · **Fork**: 3,183 · **开放 issue**: 2,355 · **贡献者**: 246
 
 ## 累计统计
 
-- **发布数**: 16 · **已合并 PR**: 726 · **开放 PR**: 102 · **已关闭 issue**: 2031 · **开放 issue**: 324 · **提交数**: 1951
+- **发布数**: 16 · **已合并 PR**: 726 · **开放 PR**: 103 · **已关闭 issue**: 2031 · **开放 issue**: 324 · **提交数**: 1951
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-30 | 0 | 10 | 7 | 2 | 1 | 11 |
-| last60d | 2026-07-31 | 0 | 16 | 16 | 4 | 1 | 18 |
-| 90d | 2026-07-01 | 0 | 20 | 20 | 11 | 3 | 22 |
-| last180d | 2026-04-02 | 1 | 34 | 30 | 26 | 5 | 55 |
-| 360d | 2025-10-04 | 1 | 70 | 38 | 51 | 16 | 93 |
-| last720d | 2024-10-09 | 3 | 172 | 47 | 120 | 27 | 215 |
+| 30d | 2026-08-31 | 0 | 10 | 8 | 2 | 1 | 11 |
+| last60d | 2026-08-01 | 0 | 16 | 17 | 4 | 1 | 18 |
+| 90d | 2026-07-02 | 0 | 19 | 21 | 8 | 3 | 22 |
+| last180d | 2026-04-03 | 1 | 34 | 31 | 26 | 5 | 55 |
+| 360d | 2025-10-05 | 1 | 70 | 39 | 51 | 16 | 93 |
+| last720d | 2024-10-10 | 3 | 172 | 48 | 120 | 27 | 215 |
 
 ## Release 资产
 
@@ -108,4 +108,4 @@ jq 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260929.yml` · 2026-09-29T06:58:22Z._
+_数据快照: `data/card/260930.yml` · 2026-09-30T06:41:20Z._
