@@ -14,13 +14,13 @@ x install jq
 
 ## Code insight
 
-Total: **57,310** lines of code across **105** files in the top 5 languages.
+Total: **57,321** lines of code across **105** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 30,627 | 7,923 | 3,611 | 46 |
-| Yaml | 18,757 | 52 | 2,726 | 11 |
-| CHeader | 4,182 | 763 | 515 | 33 |
+| C | 30,623 | 7,923 | 3,611 | 46 |
+| Yaml | 18,760 | 52 | 2,729 | 11 |
+| CHeader | 4,194 | 766 | 517 | 33 |
 | Sh | 1,042 | 125 | 166 | 14 |
 | Happy | 900 | 0 | 71 | 1 |
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `jq-1.8.2` (2026-06-20)
-- **Last commit**: 2026-10-16
+- **Last commit**: 2026-10-20
 - **Assets in release**: 29
 
 ## Popularity
 
-- **Stars**: 35,869 · **Forks**: 4,931 · **Open issues**: 2,363 · **Contributors**: 252
+- **Stars**: 35,895 · **Forks**: 4,489 · **Open issues**: 2,364 · **Contributors**: 254
 
 ## Totals (cumulative)
 
-- **Releases**: 16 · **Merged PRs**: 742 · **Open PRs**: 112 · **Closed issues**: 2046 · **Open issues**: 317 · **Commits**: 1967
+- **Releases**: 16 · **Merged PRs**: 746 · **Open PRs**: 108 · **Closed issues**: 2048 · **Open issues**: 316 · **Commits**: 1971
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-20 | 0 | 12 | 25 | 5 | 5 | 18 |
-| last60d | 2026-08-21 | 0 | 23 | 33 | 8 | 5 | 29 |
-| 90d | 2026-07-22 | 0 | 30 | 37 | 9 | 5 | 34 |
-| last180d | 2026-04-23 | 1 | 46 | 42 | 31 | 6 | 57 |
-| 360d | 2025-10-25 | 1 | 84 | 50 | 56 | 16 | 107 |
-| last720d | 2024-10-30 | 3 | 187 | 58 | 129 | 26 | 231 |
+| 30d | 2026-09-21 | 0 | 16 | 21 | 6 | 5 | 22 |
+| last60d | 2026-08-22 | 0 | 27 | 29 | 9 | 5 | 33 |
+| 90d | 2026-07-23 | 0 | 34 | 33 | 10 | 5 | 38 |
+| last180d | 2026-04-24 | 1 | 48 | 38 | 32 | 6 | 61 |
+| 360d | 2025-10-26 | 1 | 88 | 46 | 57 | 16 | 111 |
+| last720d | 2024-10-31 | 3 | 191 | 54 | 130 | 26 | 235 |
 
 ## Release assets
 
@@ -108,4 +108,4 @@ Install metadata for jq lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261020.yml` · 2026-10-20T05:58:53Z._
+_Snapshot: `data/card/261021.yml` · 2026-10-21T05:52:02Z._
