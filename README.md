@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 35,994 · **Forks**: 3,749 · **Open issues**: 2,365 · **Contributors**: 258
+- **Stars**: 35,982 · **Forks**: 3,738 · **Open issues**: 2,365 · **Contributors**: 258
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-29 | 0 | 22 | 19 | 6 | 4 | 26 |
-| last60d | 2026-08-30 | 0 | 34 | 24 | 8 | 5 | 40 |
-| 90d | 2026-07-31 | 0 | 42 | 31 | 10 | 5 | 47 |
-| last180d | 2026-05-02 | 1 | 57 | 38 | 32 | 6 | 70 |
-| 360d | 2025-11-03 | 1 | 96 | 46 | 57 | 16 | 117 |
-| last720d | 2024-11-08 | 3 | 198 | 54 | 131 | 25 | 244 |
+| 30d | 2026-09-30 | 0 | 22 | 18 | 6 | 3 | 26 |
+| last60d | 2026-08-31 | 0 | 34 | 24 | 8 | 5 | 40 |
+| 90d | 2026-08-01 | 0 | 42 | 31 | 10 | 5 | 47 |
+| last180d | 2026-05-03 | 1 | 57 | 38 | 32 | 6 | 70 |
+| 360d | 2025-11-04 | 1 | 95 | 46 | 57 | 16 | 117 |
+| last720d | 2024-11-09 | 3 | 198 | 54 | 131 | 25 | 239 |
 
 ## Release assets
 
@@ -111,7 +111,7 @@ Reported by **258** distros on [repology.org](https://repology.org/project/jq). 
 | Ubuntu 26.04 LTS | `1.8.1` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.7.1` | ⚠️ outdated |
 | Arch | `1.8.2` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `1.8.2` | ✅ latest |
 | Fedora rawhide | `1.8.2` | ✅ latest |
 | Nix unstable | `1.8.2` | ✅ latest |
 | Void | `1.8.2` | ✅ latest |
@@ -127,4 +127,4 @@ Install metadata for jq lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261029.yml` · 2026-10-29T06:56:58Z._
+_Snapshot: `data/card/261030.yml` · 2026-10-30T06:54:26Z._
