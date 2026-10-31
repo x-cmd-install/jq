@@ -1,71 +1,39 @@
-- repo: amazon_2
+- repo: gnuguix
   srcname: jq
-  visiblename: jq
-  version: "1.6"
-  origversion: 1.6-17.amzn2.0.1
-  status: outdated
-  summary: Command-line JSON processor
-  licenses:
-    - MIT and ASL 2.0 and CC-BY and GPLv3
-  categories:
-    - Unspecified
-- repo: amazon_2
-  srcname: jq
-  visiblename: jq
-  version: "1.6"
-  origversion: 1.6-17.amzn2.0.2
-  status: outdated
-  summary: Command-line JSON processor
-  licenses:
-    - MIT and ASL 2.0 and CC-BY and GPLv3
-  categories:
-    - Unspecified
-- repo: eurolinux_9
-  subrepo: appstream
-  srcname: jq
-  binnames:
-    - jq
-    - jq-devel
-    - jq-debuginfo
-    - jq-debugsource
-  visiblename: jq
-  version: "1.6"
-  origversion: 1.6-12.el9
-  status: outdated
-  summary: Command-line JSON processor
-  licenses:
-    - MIT and ASL 2.0 and CC-BY and GPLv3
-  categories:
-    - Unspecified
-- repo: eurolinux_9
-  subrepo: appstream
-  srcname: jq
-  binnames:
-    - jq
-    - jq-devel
-    - jq-debuginfo
-    - jq-debugsource
-  visiblename: jq
-  version: "1.6"
-  origversion: 1.6-14.el9
-  status: outdated
-  summary: Command-line JSON processor
-  licenses:
-    - MIT and ASL 2.0 and CC-BY and GPLv3
-  categories:
-    - Unspecified
-- repo: aosc
-  srcname: app-devel/jq
   binname: jq
   visiblename: jq
   version: 1.8.2
   origversion: null
   status: newest
   summary: Command-line JSON processor
+- repo: almalinux_8
+  subrepo: AppStream
+  srcname: jq
+  visiblename: jq
+  version: "1.6"
+  origversion: 1.6-8.el8
+  status: outdated
+  summary: Command-line JSON processor
   maintainers:
-    - fallback-mnt-aosc@repology
+    - packager@almalinux.org
+  licenses:
+    - MIT and ASL 2.0 and CC-BY and GPLv3
   categories:
-    - devel
+    - Unspecified
+- repo: almalinux_8
+  subrepo: AppStream
+  srcname: jq
+  visiblename: jq
+  version: "1.6"
+  origversion: 1.6-9.el8_10
+  status: outdated
+  summary: Command-line JSON processor
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - MIT and ASL 2.0 and CC-BY and GPLv3
+  categories:
+    - Unspecified
 - repo: adelie_current
   subrepo: user
   srcname: jq
@@ -103,18 +71,6 @@
   summary: A lightweight and flexible command-line JSON processor (development files)
   maintainers:
     - me@zv.io
-  licenses:
-    - MIT
-- repo: carbs
-  subrepo: community
-  srcname: jq
-  visiblename: jq
-  version: "1.7"
-  origversion: null
-  status: outdated
-  summary: JSON parser and processor
-  maintainers:
-    - cem@carbslinux.org
   licenses:
     - MIT
 - repo: adelie_current
@@ -181,34 +137,6 @@
   visiblename: jq
   version: "1.6"
   origversion: 1.6-12.el8_10
-  status: outdated
-  summary: Command-line JSON processor
-  maintainers:
-    - packager@almalinux.org
-  licenses:
-    - MIT and ASL 2.0 and CC-BY and GPLv3
-  categories:
-    - Unspecified
-- repo: almalinux_8
-  subrepo: AppStream
-  srcname: jq
-  visiblename: jq
-  version: "1.6"
-  origversion: 1.6-8.el8
-  status: outdated
-  summary: Command-line JSON processor
-  maintainers:
-    - packager@almalinux.org
-  licenses:
-    - MIT and ASL 2.0 and CC-BY and GPLv3
-  categories:
-    - Unspecified
-- repo: almalinux_8
-  subrepo: AppStream
-  srcname: jq
-  visiblename: jq
-  version: "1.6"
-  origversion: 1.6-9.el8_10
   status: outdated
   summary: Command-line JSON processor
   maintainers:
@@ -379,6 +307,19 @@
     - alpine@ptrcnull.me
   licenses:
     - MIT
+- repo: apertis_v2025
+  subrepo: v2025-security/target
+  srcname: jq
+  binnames:
+    - jq
+    - libjq1
+    - libjq-dev
+  visiblename: jq
+  version: "1.6"
+  origversion: 1.6-2.1+deb12u3+apertis0
+  status: outdated
+  maintainers:
+    - czchen@debian.org
 - repo: alpine_3_20
   subrepo: main
   srcname: jq
@@ -522,6 +463,19 @@
     - alpine@ptrcnull.me
   licenses:
     - MIT
+- repo: apertis_v2026
+  subrepo: v2026/target
+  srcname: jq
+  binnames:
+    - jq
+    - libjq1
+    - libjq-dev
+  visiblename: jq
+  version: 1.7.1
+  origversion: 1.7.1-6+deb13u3+apertis0
+  status: outdated
+  maintainers:
+    - czchen@debian.org
 - repo: alpine_3_24
   subrepo: main
   srcname: jq
@@ -625,6 +579,40 @@
     - BSD
   categories:
     - Development/Other
+- repo: amazon_2
+  srcname: jq
+  visiblename: jq
+  version: "1.6"
+  origversion: 1.6-17.amzn2.0.1
+  status: outdated
+  summary: Command-line JSON processor
+  licenses:
+    - MIT and ASL 2.0 and CC-BY and GPLv3
+  categories:
+    - Unspecified
+- repo: amazon_2
+  srcname: jq
+  visiblename: jq
+  version: "1.6"
+  origversion: 1.6-17.amzn2.0.2
+  status: outdated
+  summary: Command-line JSON processor
+  licenses:
+    - MIT and ASL 2.0 and CC-BY and GPLv3
+  categories:
+    - Unspecified
+- repo: aosc
+  srcname: app-devel/jq
+  binname: jq
+  visiblename: jq
+  version: 1.8.2
+  origversion: null
+  status: newest
+  summary: Command-line JSON processor
+  maintainers:
+    - fallback-mnt-aosc@repology
+  categories:
+    - devel
 - repo: apertis_v2023
   subrepo: v2023/target
   srcname: jq
@@ -661,32 +649,6 @@
   visiblename: jq
   version: "1.6"
   origversion: 1.6-2.1+deb12u3+apertis0
-  status: outdated
-  maintainers:
-    - czchen@debian.org
-- repo: apertis_v2025
-  subrepo: v2025-security/target
-  srcname: jq
-  binnames:
-    - jq
-    - libjq1
-    - libjq-dev
-  visiblename: jq
-  version: "1.6"
-  origversion: 1.6-2.1+deb12u3+apertis0
-  status: outdated
-  maintainers:
-    - czchen@debian.org
-- repo: apertis_v2026
-  subrepo: v2026/target
-  srcname: jq
-  binnames:
-    - jq
-    - libjq1
-    - libjq-dev
-  visiblename: jq
-  version: 1.7.1
-  origversion: 1.7.1-6+deb13u3+apertis0
   status: outdated
   maintainers:
     - czchen@debian.org
@@ -750,13 +712,18 @@
   summary: Command-line JSON processor
   licenses:
     - MIT
-- repo: distri
+- repo: carbs
+  subrepo: community
   srcname: jq
-  binname: jq
   visiblename: jq
-  version: "1.6"
-  origversion: 1.6-6
+  version: "1.7"
+  origversion: null
   status: outdated
+  summary: JSON parser and processor
+  maintainers:
+    - cem@carbslinux.org
+  licenses:
+    - MIT
 - repo: centos_stream_8
   subrepo: AppStream
   srcname: jq
@@ -1050,18 +1017,21 @@
     - MIT and ASL 2.0 and CC-BY and GPLv3
   categories:
     - Unspecified
-- repo: eurolinux_8
-  subrepo: appstream
+- repo: deepin_23
+  subrepo: main
   srcname: jq
+  binnames:
+    - jq
+    - libjq1
+    - libjq-dev
   visiblename: jq
   version: "1.6"
-  origversion: 1.6-9.el8_10
+  origversion: 1.6-2.1
   status: outdated
-  summary: Command-line JSON processor
-  licenses:
-    - MIT and ASL 2.0 and CC-BY and GPLv3
+  maintainers:
+    - czchen@debian.org
   categories:
-    - Unspecified
+    - utils
 - repo: centos_stream_10
   subrepo: BaseOS
   srcname: jq
@@ -1081,15 +1051,6 @@
     - MIT and ASL 2.0 and CC-BY and GPLv3
   categories:
     - Unspecified
-- repo: kiss_community
-  subrepo: community
-  srcname: jq
-  visiblename: jq
-  version: 1.8.2
-  origversion: null
-  status: newest
-  maintainers:
-    - prathamin@proton.me
 - repo: centos_stream_10
   subrepo: BaseOS
   srcname: jq
@@ -1131,6 +1092,21 @@
   summary: Command-line JSON processor (development files)
   licenses:
     - MIT
+- repo: openkylin_1_0
+  subrepo: yangtze-proposed/main
+  srcname: jq
+  binnames:
+    - jq
+    - libjq1
+    - libjq-dev
+  visiblename: jq
+  version: "1.6"
+  origversion: 1.6-ok4
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - utils
 - repo: chimera
   subrepo: main
   srcname: jq
@@ -1266,21 +1242,6 @@
   categories:
     - Libs
 - repo: debian_11
-  subrepo: bullseye-security/main
-  srcname: jq
-  binnames:
-    - jq
-    - libjq1
-    - libjq-dev
-  visiblename: jq
-  version: "1.6"
-  origversion: 1.6-2.1+deb11u3
-  status: outdated
-  maintainers:
-    - czchen@debian.org
-  categories:
-    - misc
-- repo: debian_11
   subrepo: bullseye/main
   srcname: jq
   binnames:
@@ -1295,8 +1256,8 @@
     - czchen@debian.org
   categories:
     - misc
-- repo: debian_12
-  subrepo: bookworm/main
+- repo: debian_11
+  subrepo: bullseye-security/main
   srcname: jq
   binnames:
     - jq
@@ -1304,7 +1265,7 @@
     - libjq-dev
   visiblename: jq
   version: "1.6"
-  origversion: 1.6-2.1+deb12u2
+  origversion: 1.6-2.1+deb11u3
   status: outdated
   maintainers:
     - czchen@debian.org
@@ -1325,16 +1286,16 @@
     - czchen@debian.org
   categories:
     - misc
-- repo: debian_13
-  subrepo: trixie/main
+- repo: debian_12
+  subrepo: bookworm/main
   srcname: jq
   binnames:
     - jq
     - libjq1
     - libjq-dev
   visiblename: jq
-  version: 1.7.1
-  origversion: 1.7.1-6+deb13u3
+  version: "1.6"
+  origversion: 1.6-2.1+deb12u2
   status: outdated
   maintainers:
     - czchen@debian.org
@@ -1350,6 +1311,21 @@
   visiblename: jq
   version: 1.7.1
   origversion: 1.7.1-6+deb13u4
+  status: outdated
+  maintainers:
+    - czchen@debian.org
+  categories:
+    - misc
+- repo: debian_13
+  subrepo: trixie/main
+  srcname: jq
+  binnames:
+    - jq
+    - libjq1
+    - libjq-dev
+  visiblename: jq
+  version: 1.7.1
+  origversion: 1.7.1-6+deb13u3
   status: outdated
   maintainers:
     - czchen@debian.org
@@ -1401,21 +1377,6 @@
     - simon@iodev.org
   categories:
     - utils
-- repo: deepin_23
-  subrepo: main
-  srcname: jq
-  binnames:
-    - jq
-    - libjq1
-    - libjq-dev
-  visiblename: jq
-  version: "1.6"
-  origversion: 1.6-2.1
-  status: outdated
-  maintainers:
-    - czchen@debian.org
-  categories:
-    - utils
 - repo: deepin_25
   subrepo: main
   srcname: jq
@@ -1459,6 +1420,13 @@
     - czchen@debian.org
   categories:
     - misc
+- repo: distri
+  srcname: jq
+  binname: jq
+  visiblename: jq
+  version: "1.6"
+  origversion: 1.6-6
+  status: outdated
 - repo: epel_7
   srcname: jq
   visiblename: jq
@@ -1476,6 +1444,52 @@
   visiblename: jq
   version: "1.6"
   origversion: 1.6-3.el8
+  status: outdated
+  summary: Command-line JSON processor
+  licenses:
+    - MIT and ASL 2.0 and CC-BY and GPLv3
+  categories:
+    - Unspecified
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: jq
+  visiblename: jq
+  version: "1.6"
+  origversion: 1.6-9.el8_10
+  status: outdated
+  summary: Command-line JSON processor
+  licenses:
+    - MIT and ASL 2.0 and CC-BY and GPLv3
+  categories:
+    - Unspecified
+- repo: eurolinux_9
+  subrepo: appstream
+  srcname: jq
+  binnames:
+    - jq
+    - jq-devel
+    - jq-debuginfo
+    - jq-debugsource
+  visiblename: jq
+  version: "1.6"
+  origversion: 1.6-12.el9
+  status: outdated
+  summary: Command-line JSON processor
+  licenses:
+    - MIT and ASL 2.0 and CC-BY and GPLv3
+  categories:
+    - Unspecified
+- repo: eurolinux_9
+  subrepo: appstream
+  srcname: jq
+  binnames:
+    - jq
+    - jq-devel
+    - jq-debuginfo
+    - jq-debugsource
+  visiblename: jq
+  version: "1.6"
+  origversion: 1.6-14.el9
   status: outdated
   summary: Command-line JSON processor
   licenses:
@@ -1546,23 +1560,6 @@
   categories:
     - Unspecified
 - repo: fedora_40
-  subrepo: updates
-  srcname: jq
-  binnames:
-    - jq
-    - jq-devel
-    - jq-debuginfo
-    - jq-debugsource
-  visiblename: jq
-  version: 1.7.1
-  origversion: 1.7.1-7.fc40
-  status: outdated
-  summary: Command-line JSON processor
-  licenses:
-    - MIT AND ICU AND CC-BY-3.0
-  categories:
-    - Unspecified
-- repo: fedora_40
   subrepo: release
   srcname: jq
   binnames:
@@ -1577,6 +1574,23 @@
   summary: Command-line JSON processor
   licenses:
     - MIT and ASL 2.0 and CC-BY and GPLv3
+  categories:
+    - Unspecified
+- repo: fedora_40
+  subrepo: updates
+  srcname: jq
+  binnames:
+    - jq
+    - jq-devel
+    - jq-debuginfo
+    - jq-debugsource
+  visiblename: jq
+  version: 1.7.1
+  origversion: 1.7.1-7.fc40
+  status: outdated
+  summary: Command-line JSON processor
+  licenses:
+    - MIT AND ICU AND CC-BY-3.0
   categories:
     - Unspecified
 - repo: fedora_41
@@ -1610,21 +1624,6 @@
   categories:
     - Unspecified
 - repo: fedora_43
-  subrepo: updates
-  srcname: jq
-  binnames:
-    - jq
-    - jq-devel
-  visiblename: jq
-  version: 1.8.1
-  origversion: 1.8.1-3.fc43
-  status: outdated
-  summary: Command-line JSON processor
-  licenses:
-    - MIT AND ICU AND CC-BY-3.0
-  categories:
-    - Unspecified
-- repo: fedora_43
   subrepo: release
   srcname: jq
   binnames:
@@ -1639,15 +1638,15 @@
     - MIT AND ICU AND CC-BY-3.0
   categories:
     - Unspecified
-- repo: fedora_44
-  subrepo: release
+- repo: fedora_43
+  subrepo: updates
   srcname: jq
   binnames:
     - jq
     - jq-devel
   visiblename: jq
   version: 1.8.1
-  origversion: 1.8.1-2.fc44
+  origversion: 1.8.1-3.fc43
   status: outdated
   summary: Command-line JSON processor
   licenses:
@@ -1663,6 +1662,21 @@
   visiblename: jq
   version: 1.8.1
   origversion: 1.8.1-3.fc44
+  status: outdated
+  summary: Command-line JSON processor
+  licenses:
+    - MIT AND ICU AND CC-BY-3.0
+  categories:
+    - Unspecified
+- repo: fedora_44
+  subrepo: release
+  srcname: jq
+  binnames:
+    - jq
+    - jq-devel
+  visiblename: jq
+  version: 1.8.1
+  origversion: 1.8.1-2.fc44
   status: outdated
   summary: Command-line JSON processor
   licenses:
@@ -1712,14 +1726,21 @@
     - CC-BY-3.0
   categories:
     - app-misc
-- repo: gnuguix
+- repo: openkylin_2_0
+  subrepo: nile/main
   srcname: jq
-  binname: jq
+  binnames:
+    - jq
+    - libjq1
+    - libjq-dev
   visiblename: jq
-  version: 1.8.2
-  origversion: null
-  status: newest
-  summary: Command-line JSON processor
+  version: 1.7.1
+  origversion: 1.7.1-ok1
+  status: outdated
+  maintainers:
+    - packaging@lists.openkylin.top
+  categories:
+    - utils
 - repo: haikuports_master
   srcname: app-misc/jq
   visiblename: app-misc/jq
@@ -1772,6 +1793,15 @@
     - czchen@debian.org
   categories:
     - misc
+- repo: kiss_community
+  subrepo: community
+  srcname: jq
+  visiblename: jq
+  version: 1.8.2
+  origversion: null
+  status: newest
+  maintainers:
+    - prathamin@proton.me
 - repo: liguros_stable
   srcname: app-misc/jq
   visiblename: app-misc/jq
@@ -1849,35 +1879,6 @@
     - MIT
   categories:
     - sysutils
-- repo: openindiana
-  subrepo: hipster
-  srcname: jq
-  binname: text/jq
-  visiblename: jq
-  version: 1.8.0
-  origversion: null
-  status: legacy
-  summary: jq - lightweight and flexible command-line JSON processor
-  categories:
-    - Applications/System Utilities
-- repo: mageia_9
-  subrepo: core/updates
-  srcname: jq
-  binnames:
-    - jq
-    - lib64jq1
-    - lib64jq-devel
-    - jq-debuginfo
-    - jq-debugsource
-  visiblename: jq
-  version: "1.6"
-  origversion: 1.6-3.1.mga9
-  status: outdated
-  summary: Command-line JSON processor
-  licenses:
-    - MIT and ASL 2.0 and CC-BY and GPLv3
-  categories:
-    - System/Base
 - repo: mageia_9
   subrepo: core/release
   srcname: jq
@@ -1896,6 +1897,39 @@
     - MIT and ASL 2.0 and CC-BY and GPLv3
   categories:
     - System/Base
+- repo: mageia_9
+  subrepo: core/updates
+  srcname: jq
+  binnames:
+    - jq
+    - lib64jq1
+    - lib64jq-devel
+    - jq-debuginfo
+    - jq-debugsource
+  visiblename: jq
+  version: "1.6"
+  origversion: 1.6-3.1.mga9
+  status: outdated
+  summary: Command-line JSON processor
+  licenses:
+    - MIT and ASL 2.0 and CC-BY and GPLv3
+  categories:
+    - System/Base
+- repo: raspbian_testing
+  subrepo: main
+  srcname: jq
+  binnames:
+    - jq
+    - libjq1
+    - libjq-dev
+  visiblename: jq
+  version: 1.8.2
+  origversion: 1.8.2-1
+  status: newest
+  maintainers:
+    - czchen@debian.org
+  categories:
+    - misc
 - repo: mageia_10
   subrepo: core/updates
   srcname: jq
@@ -2057,14 +2091,6 @@
     - n@monade.li
   licenses:
     - MIT
-- repo: ptxdist
-  srcname: jq
-  visiblename: jq
-  version: 1.8.2
-  origversion: null
-  status: newest
-  licenses:
-    - MIT AND CC-BY-3.0 AND ICU AND BSD-2-Clause
 - repo: nix_stable_25_11
   srcname: jq
   visiblename: jq
@@ -2243,6 +2269,17 @@
   srcname: jq
   binname: text/jq
   visiblename: jq
+  version: 1.8.0
+  origversion: null
+  status: legacy
+  summary: jq - lightweight and flexible command-line JSON processor
+  categories:
+    - Applications/System Utilities
+- repo: openindiana
+  subrepo: hipster
+  srcname: jq
+  binname: text/jq
+  visiblename: jq
   version: 1.8.2
   origversion: null
   status: newest
@@ -2262,36 +2299,6 @@
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
-  categories:
-    - utils
-- repo: openkylin_1_0
-  subrepo: yangtze-proposed/main
-  srcname: jq
-  binnames:
-    - jq
-    - libjq1
-    - libjq-dev
-  visiblename: jq
-  version: "1.6"
-  origversion: 1.6-ok4
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-  categories:
-    - utils
-- repo: openkylin_2_0
-  subrepo: nile/main
-  srcname: jq
-  binnames:
-    - jq
-    - libjq1
-    - libjq-dev
-  visiblename: jq
-  version: 1.7.1
-  origversion: 1.7.1-ok1
-  status: outdated
-  maintainers:
-    - packaging@lists.openkylin.top
   categories:
     - utils
 - repo: openkylin_2_0
@@ -2437,6 +2444,18 @@
   categories:
     - Productivity/Text/Utilities
 - repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: jq
+  visiblename: jq
+  version: "1.6"
+  origversion: 1.6-3.3.1
+  status: outdated
+  summary: A lightweight and flexible command-line JSON processor
+  licenses:
+    - MIT AND CC-BY-3.0
+  categories:
+    - Productivity/Text/Utilities
+- repo: opensuse_leap_15_6
   subrepo: updates/sle
   srcname: jq
   visiblename: jq
@@ -2466,18 +2485,6 @@
   visiblename: jq
   version: "1.6"
   origversion: 1.6-150000.3.9.1
-  status: outdated
-  summary: A lightweight and flexible command-line JSON processor
-  licenses:
-    - MIT AND CC-BY-3.0
-  categories:
-    - Productivity/Text/Utilities
-- repo: opensuse_leap_15_6
-  subrepo: main/oss
-  srcname: jq
-  visiblename: jq
-  version: "1.6"
-  origversion: 1.6-3.3.1
   status: outdated
   summary: A lightweight and flexible command-line JSON processor
   licenses:
@@ -2684,6 +2691,14 @@
   version: 1.8.2
   origversion: 1.8.2-2
   status: newest
+- repo: ptxdist
+  srcname: jq
+  visiblename: jq
+  version: 1.8.2
+  origversion: null
+  status: newest
+  licenses:
+    - MIT AND CC-BY-3.0 AND ICU AND BSD-2-Clause
 - repo: pureos_byzantium
   subrepo: byzantium/main
   srcname: jq
@@ -2740,21 +2755,6 @@
   version: 1.7.1
   origversion: 1.7.1-6+deb13u4
   status: outdated
-  maintainers:
-    - czchen@debian.org
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: jq
-  binnames:
-    - jq
-    - libjq1
-    - libjq-dev
-  visiblename: jq
-  version: 1.8.2
-  origversion: 1.8.2-1
-  status: newest
   maintainers:
     - czchen@debian.org
   categories:
@@ -3052,21 +3052,6 @@
   categories:
     - Unspecified
 - repo: ubuntu_20_04
-  subrepo: focal-updates/main
-  srcname: jq
-  binnames:
-    - jq
-    - libjq1
-    - libjq-dev
-  visiblename: jq
-  version: "1.6"
-  origversion: 1.6-1ubuntu0.20.04.1
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-  categories:
-    - misc
-- repo: ubuntu_20_04
   subrepo: focal/universe
   srcname: jq
   binnames:
@@ -3081,6 +3066,21 @@
     - czchen@debian.org
   categories:
     - universe/misc
+- repo: ubuntu_20_04
+  subrepo: focal-updates/main
+  srcname: jq
+  binnames:
+    - jq
+    - libjq1
+    - libjq-dev
+  visiblename: jq
+  version: "1.6"
+  origversion: 1.6-1ubuntu0.20.04.1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - misc
 - repo: ubuntu_22_04
   subrepo: jammy/main
   srcname: jq
@@ -3112,21 +3112,6 @@
   categories:
     - misc
 - repo: ubuntu_24_04
-  subrepo: noble/main
-  srcname: jq
-  binnames:
-    - jq
-    - libjq1
-    - libjq-dev
-  visiblename: jq
-  version: 1.7.1
-  origversion: 1.7.1-3build1
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-  categories:
-    - misc
-- repo: ubuntu_24_04
   subrepo: noble-updates/main
   srcname: jq
   binnames:
@@ -3141,8 +3126,8 @@
     - ubuntu-devel-discuss@lists.ubuntu.com
   categories:
     - misc
-- repo: ubuntu_25_04
-  subrepo: plucky/main
+- repo: ubuntu_24_04
+  subrepo: noble/main
   srcname: jq
   binnames:
     - jq
@@ -3150,7 +3135,7 @@
     - libjq-dev
   visiblename: jq
   version: 1.7.1
-  origversion: 1.7.1-3ubuntu1
+  origversion: 1.7.1-3build1
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -3171,16 +3156,16 @@
     - ubuntu-devel-discuss@lists.ubuntu.com
   categories:
     - misc
-- repo: ubuntu_25_10
-  subrepo: questing-updates/main
+- repo: ubuntu_25_04
+  subrepo: plucky/main
   srcname: jq
   binnames:
     - jq
     - libjq1
     - libjq-dev
   visiblename: jq
-  version: 1.8.1
-  origversion: 1.8.1-3ubuntu1.1
+  version: 1.7.1
+  origversion: 1.7.1-3ubuntu1
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -3201,8 +3186,8 @@
     - ubuntu-devel-discuss@lists.ubuntu.com
   categories:
     - misc
-- repo: ubuntu_26_04
-  subrepo: resolute/main
+- repo: ubuntu_25_10
+  subrepo: questing-updates/main
   srcname: jq
   binnames:
     - jq
@@ -3210,7 +3195,7 @@
     - libjq-dev
   visiblename: jq
   version: 1.8.1
-  origversion: 1.8.1-4ubuntu1
+  origversion: 1.8.1-3ubuntu1.1
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -3226,6 +3211,21 @@
   visiblename: jq
   version: 1.8.1
   origversion: 1.8.1-4ubuntu2
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - misc
+- repo: ubuntu_26_04
+  subrepo: resolute/main
+  srcname: jq
+  binnames:
+    - jq
+    - libjq1
+    - libjq-dev
+  visiblename: jq
+  version: 1.8.1
+  origversion: 1.8.1-4ubuntu1
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -3291,45 +3291,6 @@
   summary: command-line JSON processor
   licenses:
     - MIT License
-- repo: amazon_2
-  srcname: jq
-  visiblename: jq
-  version: "1.5"
-  origversion: 1.5-1.amzn2
-  status: legacy
-  summary: Command-line JSON processor
-  licenses:
-    - MIT and ASL 2.0 and CC-BY and GPLv3
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: amazon_2
-  srcname: jq
-  visiblename: jq
-  version: "1.5"
-  origversion: 1.5-1.amzn2.0.3
-  status: legacy
-  summary: Command-line JSON processor
-  licenses:
-    - MIT and ASL 2.0 and CC-BY and GPLv3
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: centos_8
-  subrepo: AppStream
-  srcname: jq
-  visiblename: jq
-  version: "1.5"
-  origversion: 1.5-12.el8
-  status: outdated
-  summary: Command-line JSON processor
-  maintainers:
-    - bugs@centos.org
-  licenses:
-    - MIT and ASL 2.0 and CC-BY and GPLv3
-  categories:
-    - Unspecified
-  vulnerable: true
 - repo: amazon_1
   subrepo: main
   srcname: jq
@@ -3350,6 +3311,45 @@
   origversion: 1.5-1.amzn2.0.2
   status: legacy
   summary: Command-line JSON processor
+  licenses:
+    - MIT and ASL 2.0 and CC-BY and GPLv3
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_2
+  srcname: jq
+  visiblename: jq
+  version: "1.5"
+  origversion: 1.5-1.amzn2.0.3
+  status: legacy
+  summary: Command-line JSON processor
+  licenses:
+    - MIT and ASL 2.0 and CC-BY and GPLv3
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_2
+  srcname: jq
+  visiblename: jq
+  version: "1.5"
+  origversion: 1.5-1.amzn2
+  status: legacy
+  summary: Command-line JSON processor
+  licenses:
+    - MIT and ASL 2.0 and CC-BY and GPLv3
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: centos_8
+  subrepo: AppStream
+  srcname: jq
+  visiblename: jq
+  version: "1.5"
+  origversion: 1.5-12.el8
+  status: outdated
+  summary: Command-line JSON processor
+  maintainers:
+    - bugs@centos.org
   licenses:
     - MIT and ASL 2.0 and CC-BY and GPLv3
   categories:
@@ -3447,20 +3447,6 @@
     - utils
   vulnerable: true
 - repo: ubuntu_14_04
-  subrepo: trusty/universe
-  srcname: jq
-  binnames:
-    - jq
-  visiblename: jq
-  version: "1.3"
-  origversion: 1.3-1.1ubuntu1
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-  categories:
-    - universe/misc
-  vulnerable: true
-- repo: ubuntu_14_04
   subrepo: trusty-updates/universe
   srcname: jq
   binnames:
@@ -3468,6 +3454,20 @@
   visiblename: jq
   version: "1.3"
   origversion: 1.3-1.1ubuntu1.1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - universe/misc
+  vulnerable: true
+- repo: ubuntu_14_04
+  subrepo: trusty/universe
+  srcname: jq
+  binnames:
+    - jq
+  visiblename: jq
+  version: "1.3"
+  origversion: 1.3-1.1ubuntu1
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -3489,20 +3489,6 @@
     - universe/misc
   vulnerable: true
 - repo: ubuntu_16_04
-  subrepo: xenial/universe
-  srcname: jq
-  binnames:
-    - jq
-  visiblename: jq
-  version: "1.5"
-  origversion: 1.5+dfsg-1
-  status: outdated
-  maintainers:
-    - simon@iodev.org
-  categories:
-    - universe/misc
-  vulnerable: true
-- repo: ubuntu_16_04
   subrepo: xenial-updates/universe
   srcname: jq
   binnames:
@@ -3513,6 +3499,20 @@
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - universe/misc
+  vulnerable: true
+- repo: ubuntu_16_04
+  subrepo: xenial/universe
+  srcname: jq
+  binnames:
+    - jq
+  visiblename: jq
+  version: "1.5"
+  origversion: 1.5+dfsg-1
+  status: outdated
+  maintainers:
+    - simon@iodev.org
   categories:
     - universe/misc
   vulnerable: true
