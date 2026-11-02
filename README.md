@@ -14,11 +14,11 @@ x install jq
 
 ## Code insight
 
-Total: **57,858** lines of code across **105** files in the top 5 languages.
+Total: **57,857** lines of code across **105** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 30,657 | 7,926 | 3,615 | 46 |
+| C | 30,656 | 7,930 | 3,616 | 46 |
 | Yaml | 19,208 | 52 | 2,748 | 11 |
 | CHeader | 4,194 | 766 | 517 | 33 |
 | Sh | 1,097 | 127 | 171 | 14 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `jq-1.8.2` (2026-06-20)
-- **Last commit**: 2026-10-31
+- **Last commit**: 2026-11-02
 - **Assets in release**: 29
 
 ## Popularity
 
-- **Stars**: 36,003 · **Forks**: 3,088 · **Open issues**: 2,365 · **Contributors**: 259
+- **Stars**: 36,014 · **Forks**: 3,089 · **Open issues**: 2,366 · **Contributors**: 259
 
 ## Totals (cumulative)
 
-- **Releases**: 16 · **Merged PRs**: 757 · **Open PRs**: 113 · **Closed issues**: 2055 · **Open issues**: 310 · **Commits**: 1982
+- **Releases**: 16 · **Merged PRs**: 762 · **Open PRs**: 110 · **Closed issues**: 2057 · **Open issues**: 309 · **Commits**: 1987
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-02 | 0 | 20 | 23 | 7 | 2 | 23 |
-| last60d | 2026-09-02 | 0 | 34 | 27 | 9 | 4 | 42 |
-| 90d | 2026-08-03 | 0 | 43 | 36 | 11 | 4 | 49 |
-| last180d | 2026-05-05 | 1 | 59 | 43 | 33 | 4 | 66 |
-| 360d | 2025-11-06 | 1 | 97 | 50 | 58 | 15 | 119 |
-| last720d | 2024-11-11 | 3 | 200 | 59 | 130 | 24 | 240 |
+| 30d | 2026-10-03 | 0 | 24 | 20 | 7 | 2 | 28 |
+| last60d | 2026-09-03 | 0 | 38 | 24 | 11 | 3 | 47 |
+| 90d | 2026-08-04 | 0 | 48 | 33 | 13 | 3 | 54 |
+| last180d | 2026-05-06 | 1 | 64 | 40 | 35 | 3 | 71 |
+| 360d | 2025-11-07 | 1 | 102 | 47 | 60 | 14 | 124 |
+| last720d | 2024-11-12 | 3 | 205 | 56 | 132 | 23 | 245 |
 
 ## Release assets
 
@@ -101,7 +101,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **258** distros on [repology.org](https://repology.org/project/jq). **86** are ✅ on the latest upstream release, **159** are ⚠️ on an older version.
+Reported by **258** distros on [repology.org](https://repology.org/project/jq). **85** are ✅ on the latest upstream release, **160** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -111,7 +111,7 @@ Reported by **258** distros on [repology.org](https://repology.org/project/jq). 
 | Ubuntu 26.04 LTS | `1.8.1` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.7.1` | ⚠️ outdated |
 | Arch | `1.8.2` | ✅ latest |
-| Homebrew | `1.8.2` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Fedora rawhide | `1.8.2` | ✅ latest |
 | Nix unstable | `1.8.2` | ✅ latest |
 | Void | `1.8.2` | ✅ latest |
@@ -127,4 +127,4 @@ Install metadata for jq lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261101.yml` · 2026-11-01T07:07:51Z._
+_Snapshot: `data/card/261102.yml` · 2026-11-02T07:19:18Z._
