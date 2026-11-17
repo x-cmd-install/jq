@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 36,148 · **Forks**: 2,343 · **Open issues**: 2,369 · **Contributors**: 259
+- **Stars**: 36,161 · **Forks**: 2,344 · **Open issues**: 2,371 · **Contributors**: 259
 
 ## Totals (cumulative)
 
-- **Releases**: 16 · **Merged PRs**: 762 · **Open PRs**: 126 · **Closed issues**: 2057 · **Open issues**: 312 · **Commits**: 1987
+- **Releases**: 16 · **Merged PRs**: 762 · **Open PRs**: 127 · **Closed issues**: 2057 · **Open issues**: 314 · **Commits**: 1987
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 0 | 13 | 26 | 3 | 4 | 14 |
-| last60d | 2026-09-17 | 0 | 32 | 40 | 11 | 6 | 38 |
-| 90d | 2026-08-18 | 0 | 43 | 47 | 13 | 6 | 49 |
-| last180d | 2026-05-20 | 1 | 63 | 53 | 32 | 6 | 68 |
-| 360d | 2025-11-21 | 1 | 101 | 63 | 59 | 14 | 122 |
-| last720d | 2024-11-26 | 3 | 201 | 72 | 130 | 26 | 241 |
+| 30d | 2026-10-18 | 0 | 9 | 27 | 3 | 6 | 14 |
+| last60d | 2026-09-18 | 0 | 31 | 42 | 11 | 8 | 38 |
+| 90d | 2026-08-19 | 0 | 43 | 48 | 13 | 8 | 49 |
+| last180d | 2026-05-21 | 1 | 63 | 54 | 32 | 8 | 68 |
+| 360d | 2025-11-22 | 1 | 101 | 64 | 59 | 16 | 122 |
+| last720d | 2024-11-27 | 3 | 201 | 73 | 130 | 28 | 241 |
 
 ## Release assets
 
@@ -99,25 +99,6 @@ Lowest-scoring checks:
 | [jq-windows-i386.exe](https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-windows-i386.exe) | 1.0 MiB | `native/win/x64` |
 | [sha256sum.txt](https://github.com/jqlang/jq/releases/download/jq-1.8.2/sha256sum.txt) | 2.2 KiB | `other` |
 
-## Distribution status
-
-Reported by **255** distros on [repology.org](https://repology.org/project/jq). **88** are ✅ on the latest upstream release, **154** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `1.8.2` | ✅ latest |
-| Debian 14 | `1.8.2` | ✅ latest |
-| Debian 13 | `1.7.1` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `1.8.1` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `1.7.1` | ⚠️ outdated |
-| Arch | `1.8.2` | ✅ latest |
-| Homebrew | `1.8.2` | ✅ latest |
-| Fedora rawhide | `1.8.2` | ✅ latest |
-| Nix unstable | `1.8.2` | ✅ latest |
-| Void | `1.8.2` | ✅ latest |
-| Alpine edge | `1.8.2` | ✅ latest |
-| openSUSE Tumbleweed | `1.8.2` | ✅ latest |
-
 ## Improve this data
 
 Install metadata for jq lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `jq` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -127,4 +108,4 @@ Install metadata for jq lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261116.yml` · 2026-11-16T08:26:58Z._
+_Snapshot: `data/card/261117.yml` · 2026-11-17T11:03:45Z._

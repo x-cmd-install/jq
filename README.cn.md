@@ -48,22 +48,22 @@ x install jq
 
 ## 流行度
 
-- **Star**: 36,148 · **Fork**: 2,343 · **开放 issue**: 2,369 · **贡献者**: 259
+- **Star**: 36,161 · **Fork**: 2,344 · **开放 issue**: 2,371 · **贡献者**: 259
 
 ## 累计统计
 
-- **发布数**: 16 · **已合并 PR**: 762 · **开放 PR**: 126 · **已关闭 issue**: 2057 · **开放 issue**: 312 · **提交数**: 1987
+- **发布数**: 16 · **已合并 PR**: 762 · **开放 PR**: 127 · **已关闭 issue**: 2057 · **开放 issue**: 314 · **提交数**: 1987
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 0 | 13 | 26 | 3 | 4 | 14 |
-| last60d | 2026-09-17 | 0 | 32 | 40 | 11 | 6 | 38 |
-| 90d | 2026-08-18 | 0 | 43 | 47 | 13 | 6 | 49 |
-| last180d | 2026-05-20 | 1 | 63 | 53 | 32 | 6 | 68 |
-| 360d | 2025-11-21 | 1 | 101 | 63 | 59 | 14 | 122 |
-| last720d | 2024-11-26 | 3 | 201 | 72 | 130 | 26 | 241 |
+| 30d | 2026-10-18 | 0 | 9 | 27 | 3 | 6 | 14 |
+| last60d | 2026-09-18 | 0 | 31 | 42 | 11 | 8 | 38 |
+| 90d | 2026-08-19 | 0 | 43 | 48 | 13 | 8 | 49 |
+| last180d | 2026-05-21 | 1 | 63 | 54 | 32 | 8 | 68 |
+| 360d | 2025-11-22 | 1 | 101 | 64 | 59 | 16 | 122 |
+| last720d | 2024-11-27 | 3 | 201 | 73 | 130 | 28 | 241 |
 
 ## Release 资产
 
@@ -99,25 +99,6 @@ x install jq
 | [jq-windows-i386.exe](https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-windows-i386.exe) | 1.0 MiB | `native/win/x64` |
 | [sha256sum.txt](https://github.com/jqlang/jq/releases/download/jq-1.8.2/sha256sum.txt) | 2.2 KiB | `other` |
 
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/jq) 上共有 **255** 个发行版报告此项目。**88** 个 ✅ 已是最新上游版本，**154** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `1.8.2` | ✅ latest |
-| Debian 14 | `1.8.2` | ✅ latest |
-| Debian 13 | `1.7.1` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `1.8.1` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `1.7.1` | ⚠️ outdated |
-| Arch | `1.8.2` | ✅ latest |
-| Homebrew | `1.8.2` | ✅ latest |
-| Fedora rawhide | `1.8.2` | ✅ latest |
-| Nix unstable | `1.8.2` | ✅ latest |
-| Void | `1.8.2` | ✅ latest |
-| Alpine edge | `1.8.2` | ✅ latest |
-| openSUSE Tumbleweed | `1.8.2` | ✅ latest |
-
 ## 改进这些数据
 
 jq 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `jq` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -127,4 +108,4 @@ jq 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261116.yml` · 2026-11-16T08:26:59Z._
+_数据快照: `data/card/261117.yml` · 2026-11-17T11:03:46Z._
