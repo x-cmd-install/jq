@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 36,199 · **Forks**: 2,346 · **Open issues**: 2,379 · **Contributors**: 259
+- **Stars**: 36,214 · **Forks**: 2,348 · **Open issues**: 2,379 · **Contributors**: 259
 
 ## Totals (cumulative)
 
-- **Releases**: 16 · **Merged PRs**: 762 · **Open PRs**: 135 · **Closed issues**: 2057 · **Open issues**: 322 · **Commits**: 1987
+- **Releases**: 16 · **Merged PRs**: 762 · **Open PRs**: 138 · **Closed issues**: 2057 · **Open issues**: 322 · **Commits**: 1987
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-22 | 0 | 7 | 34 | 1 | 14 | 14 |
-| last60d | 2026-09-22 | 0 | 31 | 50 | 10 | 16 | 38 |
-| 90d | 2026-08-23 | 0 | 43 | 55 | 13 | 16 | 49 |
-| last180d | 2026-05-25 | 1 | 62 | 61 | 32 | 16 | 68 |
-| 360d | 2025-11-26 | 1 | 100 | 72 | 58 | 24 | 122 |
-| last720d | 2024-12-01 | 3 | 201 | 81 | 130 | 35 | 241 |
+| 30d | 2026-10-23 | 0 | 5 | 37 | 0 | 14 | 14 |
+| last60d | 2026-09-23 | 0 | 31 | 53 | 10 | 16 | 38 |
+| 90d | 2026-08-24 | 0 | 43 | 58 | 13 | 16 | 49 |
+| last180d | 2026-05-26 | 1 | 62 | 64 | 32 | 16 | 68 |
+| 360d | 2025-11-27 | 1 | 99 | 75 | 58 | 24 | 122 |
+| last720d | 2024-12-02 | 3 | 200 | 84 | 129 | 35 | 239 |
 
 ## Release assets
 
@@ -127,4 +127,4 @@ Install metadata for jq lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261121.yml` · 2026-11-21T08:56:04Z._
+_Snapshot: `data/card/261122.yml` · 2026-11-22T07:33:27Z._
